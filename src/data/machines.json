@@ -1,0 +1,91 @@
+[
+  {
+    "id": "mch-001",
+    "locationId": "loc-001",
+    "machineCode": "BWZ-MUM-001",
+    "model": "Wendor Nova",
+    "vendor": "Wendor (Powered by Elanpro)",
+    "vendorWebsite": "wendor.ai",
+    "productCode": "WENDOR-NOVA-EVM",
+    "description": "Elevator vending machine with IoT-enabled SaaS platform, custom Bowlz-I branding wrap, and full cashless payment stack. Purpose-built for fresh food — adjustable refrigeration, smooth elevator delivery, automatic refunds.",
+    "productCapacity": {
+      "total": 350,
+      "skuVarieties": 42,
+      "trays": 6,
+      "capacityRange": "300–350 pcs (varies by product dimensions)"
+    },
+    "lastRestocked": "2026-06-07T08:00:00Z",
+    "status": "active",
+    "temperatureRangeMin": 4,
+    "temperatureRangeMax": 25,
+    "temperatureNote": "Refrigerated mode: 4°C | Ambient mode: up to 25°C | Adjustable per shelf",
+    "touchscreenSize": "22 inch",
+    "powerWattsRefrigerated": 422,
+    "powerWattsNormal": 24,
+    "voltage": "110V–120W / 220V–240V 50/60Hz",
+    "dimensionsH": 1945,
+    "dimensionsW": 1294,
+    "dimensionsD": 870,
+    "weightKg": 330,
+    "deliveryMechanism": "Elevator system — smooth descent, no product damage. Suitable for fragile items like salad bowls and juice bottles.",
+    "multiVend": true,
+    "multiVendMax": 5,
+    "multiVendNote": "Vend up to 5 products in a single transaction. Increases average basket size by ~25%.",
+    "paymentMethods": [
+      "UPI (GPay, PhonePe, Paytm, RuPay)",
+      "Visa / Mastercard",
+      "Tap to Pay (NFC)",
+      "SwiftWallet",
+      "Apple Pay",
+      "Sodexo",
+      "RFID Card"
+    ],
+    "softwarePlatform": "Wendor SaaS Dashboard",
+    "softwareFeatures": [
+      "Real-time inventory tracking per machine",
+      "Remote temperature monitoring and alerts",
+      "Daily & weekly sales analytics",
+      "Refill planning and dynamic routing",
+      "Refiller live location and attendance tracking",
+      "Machine downtime alerts",
+      "Direct funds transfer on every sale",
+      "Automatic customer refunds on dispense failure",
+      "Anti-theft division plate"
+    ],
+    "brandingOptions": [
+      "Full machine wrap with custom Bowlz-I branding",
+      "Custom screen UI and product imagery",
+      "Branded product labels"
+    ],
+    "features": [
+      "22\" Touchscreen Interface",
+      "Elevator lift system — no product damage",
+      "Adjustable refrigeration 4°C–25°C",
+      "Multi-vend up to 5 products per transaction",
+      "Real-time IoT monitoring via Wendor SaaS",
+      "All UPI + card payment methods",
+      "Automatic refunds on dispense failure",
+      "Direct bank transfer on every sale",
+      "Custom full-machine Bowlz-I branding wrap",
+      "Anti-theft division plate",
+      "Remote temperature monitoring",
+      "Live inventory dashboard"
+    ],
+    "applicableLocations": [
+      "Corporate offices",
+      "Coworking spaces",
+      "Food courts",
+      "Hospitals",
+      "Universities"
+    ],
+    "vendorPartners": [
+      "Tata Motors", "HCLTech", "Optum", "Amul", "Unilever",
+      "Apollo Hospitals", "Fortis", "The Oberoi", "Marriott",
+      "Ministry of Defence", "NITI Aayog", "IIT Institutes",
+      "Amity University", "IRCTC", "JioHotstar"
+    ],
+    "globalPresence": ["India", "UAE (Dubai)", "Egypt", "Nepal", "Ghana", "Guatemala"],
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-06-08T00:00:00Z"
+  }
+]
