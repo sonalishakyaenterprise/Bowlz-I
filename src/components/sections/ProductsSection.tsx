@@ -128,7 +128,7 @@ function ProductCard({ product, allProducts }: { product: Product; allProducts: 
           {/* Pairing tags */}
           {pairedProducts.length > 0 && (
             <div className="mb-3">
-              <div className="text-[9px] text-white/25 uppercase tracking-widest mb-1">Pairs with</div>
+              <div className="text-[9px] text-white/25 uppercase tracking-widest mb-1">Best dressings to pair with</div>
               <div className="flex flex-wrap gap-1">
                 {pairedProducts.map(p => (
                   <span key={p.id} className="text-[10px] bg-white/6 text-white/40 px-1.5 py-0.5 rounded-md">{p.emoji} {p.name.split(" ")[0]}</span>

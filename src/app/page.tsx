@@ -33,7 +33,7 @@ export default function HomePage() {
         <ProductsSection categories={categories} products={products} />
         <MachineSection />
         <LocationsSection locations={locations} />
-        <BlogSection posts={blogPosts} />
+        {/* <BlogSection posts={blogPosts} /> */}
         <ContactSection />
       </main>
       <Footer />
