@@ -11,7 +11,7 @@ const NAV_LINKS = [
   { label: "Locations", href: "#locs-sec"     },
   { label: "Blog",      href: "#blog-sec"     },
   { label: "Contact",   href: "#contact-sec"  },
-  { label: "FAQ",       href: "/faq"          },
+  // { label: "FAQ",       href: "/faq"          },
 ];
 
 function BowlzILogo({ size = 36, light = false }: { size?: number; light?: boolean }) {

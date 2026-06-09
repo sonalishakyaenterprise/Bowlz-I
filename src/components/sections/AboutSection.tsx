@@ -22,7 +22,7 @@ const JOURNEY_STEPS = [
     id: "supplier",
     icon: "🚛",
     label: "Cold-Chain Delivery",
-    sublabel: "Temperature-controlled by 6 AM",
+    sublabel: "Temperature-controlled by 5:30 AM",
     description: "Ingredients arrive via cold-chain logistics directly to our kitchen — maintaining freshness from source to prep with zero temperature breaks.",
     color: "#2d8c58",
     bgColor: "bg-teal-50",
@@ -33,7 +33,7 @@ const JOURNEY_STEPS = [
     id: "kitchen",
     icon: "🍳",
     label: "Our Kitchen",
-    sublabel: "Prep starts at 6:30 AM",
+    sublabel: "Prep starts at 6 AM",
     description: "FSSAI-certified facility. Washed, chopped, cooked, assembled. Every bowl made fresh same morning.",
     color: "#1a5c3a",
     bgColor: "bg-green-50",
@@ -55,7 +55,7 @@ const JOURNEY_STEPS = [
     id: "pack",
     icon: "📦",
     label: "Eco Packaging",
-    sublabel: "Sealed by 8 AM",
+    sublabel: "Sealed by 7:30 AM",
     description: "Sustainable packaging with QR traceability. Scan to see exactly which farm your meal came from.",
     color: "#6b4f2a",
     bgColor: "bg-amber-50",
@@ -66,7 +66,7 @@ const JOURNEY_STEPS = [
     id: "machine",
     icon: "🤖",
     label: "Smart Machine",
-    sublabel: "Stocked by 9 AM",
+    sublabel: "Stocked by 8:30 AM",
     description: "Refrigerated at 2–8°C. Fresh inventory loads in daily. Yesterday's stock never rolls over.",
     color: "#0d0d0d",
     bgColor: "bg-gray-50",
@@ -256,8 +256,8 @@ export default function AboutSection() {
               },
               {
                 icon: "🥬",
-                title: "New ways to eat your vegetables",
-                body: "Zoodles (spiralised carrot & zucchini). Rainbow bowls with beetroot microgreens. Kale massaged in lemon. We make vegetables genuinely interesting — not just a side thought.",
+                title: "Fun ways to eat your vegetables",
+                body: "Noodles shaped veggies. Rainbow bowls with beetroot microgreens. Kale massaged in lemon. We make vegetables genuinely interesting — not just a side thought.",
                 tag: "Innovation"
               },
               {
@@ -280,7 +280,7 @@ export default function AboutSection() {
               },
               {
                 icon: "🔄",
-                title: "Daily rotating menu — by design",
+                title: "Rotating menu — by design",
                 body: "The menu isn't fixed because nutrition shouldn't be boring. New items rotate in weekly. Seasonal produce drives what's available. Your body gets variety. Your palate stays curious.",
                 tag: "Variety"
               },
