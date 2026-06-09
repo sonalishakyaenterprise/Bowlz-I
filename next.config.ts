@@ -1,12 +1,18 @@
 import type { NextConfig } from "next";
 
+// GitHub Pages serves from https://USERNAME.github.io/REPO_NAME/
+// GITHUB_REPOSITORY is automatically set by GitHub Actions as "username/repo"
+// We extract the repo name to use as basePath and assetPrefix
+const isProd = process.env.NODE_ENV === "production";
+const repo   = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "";
+const base   = isProd && repo ? `/${repo}` : "";
+
 const nextConfig: NextConfig = {
-  // Static export for GitHub Pages
-  // Switch to default (remove this line) when migrating to Vercel in Phase 2
-  output: "export",
+  output:      "export",
   trailingSlash: true,
+  basePath:    base,
+  assetPrefix: base,
   images: {
-    // Required for static export — swap to optimized when on Vercel
     unoptimized: true,
   },
 };
