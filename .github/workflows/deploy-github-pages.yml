@@ -35,6 +35,8 @@ jobs:
         env:
           NODE_ENV: production
           GITHUB_REPOSITORY: ${{ github.repository }}
+          NEXT_PUBLIC_GAS_ENDPOINT: ${{ secrets.NEXT_PUBLIC_GAS_ENDPOINT }}
+          NEXT_PUBLIC_GAS_SECRET: ${{ secrets.NEXT_PUBLIC_GAS_SECRET }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
