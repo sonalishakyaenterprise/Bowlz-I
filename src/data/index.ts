@@ -65,7 +65,7 @@ export function getPairingsFor(productId: string): Product[] {
 export function getAllLocations(): Location[] {
   // Filter out template/placeholder entries
   return (locationsData as unknown as Location[]).filter(
-    l => !("_comment" in (l as Record<string, unknown>)) && l.name && !l.name.startsWith("PLACEHOLDER")
+    l => !("_comment" in (l as unknown as Record<string, unknown>)) && l.name && !l.name.startsWith("PLACEHOLDER")
   );
 }
 export function getActiveLocations(): Location[] {
