@@ -319,7 +319,7 @@ export default function ProductsSection({ categories, products }: Props) {
           })}
         </div>
 
-        {/* World of Wellness teaser */}
+        {/* World of Wellness teaser
         <div className="mt-16 bg-gradient-to-br from-forest-600 to-forest-700 rounded-3xl p-10 relative overflow-hidden">
           <div className="absolute inset-0 flex items-center justify-around opacity-[0.07] text-[6rem] pointer-events-none select-none" aria-hidden="true">
             <span>🇯🇵</span><span>🇧🇷</span><span>🇦🇷</span><span>🇰🇷</span>
@@ -337,7 +337,7 @@ export default function ProductsSection({ categories, products }: Props) {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

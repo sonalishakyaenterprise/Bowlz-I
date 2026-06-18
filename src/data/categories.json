@@ -30,7 +30,7 @@
     "description": "No concentrates. No added sugar. Just pure pressed nutrition.",
     "icon": "🧃",
     "color": "#f97316",
-    "displayOrder": 3,
+    "displayOrder": 9,
     "isGlobal": false,
     "comingSoon": false,
     "createdAt": "2026-01-01T00:00:00Z"
@@ -42,7 +42,7 @@
     "description": "Concentrated 50ml shots. Daily rituals for immunity and recovery.",
     "icon": "⚡",
     "color": "#eab308",
-    "displayOrder": 4,
+    "displayOrder": 5,
     "isGlobal": false,
     "comingSoon": false,
     "createdAt": "2026-01-01T00:00:00Z"
@@ -54,7 +54,7 @@
     "description": "Ayurvedic and functional shots. Ancient wisdom, modern convenience.",
     "icon": "🌿",
     "color": "#10b981",
-    "displayOrder": 5,
+    "displayOrder": 6,
     "isGlobal": false,
     "comingSoon": false,
     "createdAt": "2026-01-01T00:00:00Z"
@@ -66,7 +66,7 @@
     "description": "Kombucha, coconut water, protein smoothies. Drinks that do more.",
     "icon": "🥥",
     "color": "#0ea5e9",
-    "displayOrder": 6,
+    "displayOrder": 7,
     "isGlobal": false,
     "comingSoon": false,
     "createdAt": "2026-01-01T00:00:00Z"
@@ -78,7 +78,7 @@
     "description": "Makhana, trail mixes, seed blends. Guilt-free anytime snacking.",
     "icon": "🍿",
     "color": "#8b5cf6",
-    "displayOrder": 7,
+    "displayOrder": 8,
     "isGlobal": false,
     "comingSoon": false,
     "createdAt": "2026-01-01T00:00:00Z"
@@ -90,7 +90,7 @@
     "description": "50ml portions. Designed to pair perfectly with our bowls and zoodles.",
     "icon": "🫙",
     "color": "#f59e0b",
-    "displayOrder": 8,
+    "displayOrder": 3,
     "isGlobal": false,
     "comingSoon": false,
     "createdAt": "2026-01-01T00:00:00Z"
@@ -102,7 +102,7 @@
     "description": "50ml pour-on sauces designed for our fruit boxes. Sweet, tangy, and bold.",
     "icon": "🍯",
     "color": "#f97316",
-    "displayOrder": 9,
+    "displayOrder": 4,
     "isGlobal": false,
     "comingSoon": false,
     "createdAt": "2026-01-01T00:00:00Z"
