@@ -58,6 +58,16 @@ function NutritionBack({ product, onBack }: { product: Product; onBack: () => vo
         </div>
       )}
 
+      {/* Allergen warning */}
+      {product.allergenInfo && product.allergenInfo.length > 0 && (
+        <div className="mt-2 flex items-start gap-1.5 bg-amber-500/10 rounded-lg px-2 py-1.5">
+          <span className="text-[11px] flex-shrink-0">⚠️</span>
+          <span className="text-[10px] text-amber-300/90 leading-relaxed">
+            Contains: {product.allergenInfo.join(", ")}
+          </span>
+        </div>
+      )}
+
       {/* Dressing bundled notice */}
       {product.dressingIncluded && product.dressingName && (
         <div className="mt-2 bg-forest-600/20 rounded-lg px-2 py-1.5 text-[10px] text-forest-300 font-medium">
@@ -118,17 +128,28 @@ function ProductCard({ product, allProducts }: { product: Product; allProducts: 
       {!flipped ? (
         /* Front */
         <div className="p-4 flex flex-col flex-1">
-          <div className="text-3xl mb-2.5 leading-none">{product.emoji}</div>
+          <div className="flex items-center justify-between mb-2.5">
+            <div className="text-3xl leading-none">{product.emoji}</div>
+            {product.dietaryType && (
+              <div
+                className="w-3.5 h-3.5 border-[1.5px] rounded-[2px] flex items-center justify-center flex-shrink-0"
+                style={{ borderColor: "#1a7a1a" }}
+                title={product.dietaryType === "vegan" ? "Vegan" : "Vegetarian"}
+              >
+                <span className="w-1.5 h-1.5 rounded-full" style={{ background: "#1a7a1a" }} />
+              </div>
+            )}
+          </div>
           <div className="text-[9px] font-bold tracking-widest uppercase text-forest-400 mb-1">
             {product.dressingType === "salad" ? "Salad Dressing" : product.dressingType === "fruit" ? "Fruit Dressing" : ""}
           </div>
           <div className="font-semibold text-white text-sm leading-tight mb-1.5">{product.name}</div>
-          <div className="text-[11px] text-white/40 leading-relaxed mb-3 flex-1 line-clamp-2">{product.shortDescription}</div>
+          <div className="text-[11px] text-white/40 leading-relaxed mb-3 flex-1 line-clamp-3">{product.shortDescription}</div>
 
           {/* Pairing tags */}
           {pairedProducts.length > 0 && (
             <div className="mb-3">
-              <div className="text-[9px] text-white/25 uppercase tracking-widest mb-1">Best dressings to pair with</div>
+              <div className="text-[9px] text-white/25 uppercase tracking-widest mb-1">Pairs with</div>
               <div className="flex flex-wrap gap-1">
                 {pairedProducts.map(p => (
                   <span key={p.id} className="text-[10px] bg-white/6 text-white/40 px-1.5 py-0.5 rounded-md">{p.emoji} {p.name.split(" ")[0]}</span>

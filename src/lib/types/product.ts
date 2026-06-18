@@ -96,6 +96,11 @@ export interface Product {
   isFeatured?: boolean;
   ingredients: Ingredient[];
   nutrition: NutritionFacts;
+
+  // Allergen & dietary info — shown on product cards and packaging
+  allergenInfo?: string[];        // e.g. ["Dairy", "Tree Nuts"] — empty array means no major allergens
+  dietaryType?: "vegan" | "vegetarian"; // drives the veg/vegan mark display
+
   createdAt: string;
   updatedAt: string;
 }

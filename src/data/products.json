@@ -11,35 +11,101 @@
     "available": true,
     "imageUrl": "/images/products/classic-balanced-bowl.jpg",
     "emoji": "🥗",
-    "tags": ["vegan", "high-fibre", "gluten-free"],
-    "benefits": ["High fibre", "Plant protein", "Energy sustaining"],
-    "pairingTags": ["prod-022", "prod-023", "prod-025"],
+    "tags": [
+      "vegan",
+      "high-fibre",
+      "gluten-free"
+    ],
+    "benefits": [
+      "High fibre",
+      "Plant protein",
+      "Energy sustaining"
+    ],
+    "pairingTags": [
+      "prod-022",
+      "prod-023",
+      "prod-025"
+    ],
     "suggestedDressing": "Classic Lemon Vinaigrette, Green Goddess",
     "dressingIncluded": false,
     "components": [
-      { "component": "Base",     "ingredient": "Brown Rice",           "quantityG": 80   },
-      { "component": "Greens",   "ingredient": "Lettuce",              "quantityG": 20   },
-      { "component": "Greens",   "ingredient": "Baby Spinach",         "quantityG": 20   },
-      { "component": "Protein",  "ingredient": "Light Herb Chickpeas", "quantityG": 70   },
-      { "component": "Veg",      "ingredient": "Cucumber",             "quantityG": 30   },
-      { "component": "Veg",      "ingredient": "Carrot",               "quantityG": 30   },
-      { "component": "Veg",      "ingredient": "Corn",                 "quantityG": 25   },
-      { "component": "Veg",      "ingredient": "Bell Pepper",          "quantityG": 30   },
-      { "component": "Crunch",   "ingredient": "Roasted Peanuts",      "quantityG": 10   },
-      { "component": "Add-on",   "ingredient": "Fresh Lemon Wedge",    "quantityG": null }
+      {
+        "component": "Base",
+        "ingredient": "Brown Rice",
+        "quantityG": 80
+      },
+      {
+        "component": "Greens",
+        "ingredient": "Lettuce",
+        "quantityG": 20
+      },
+      {
+        "component": "Greens",
+        "ingredient": "Baby Spinach",
+        "quantityG": 20
+      },
+      {
+        "component": "Protein",
+        "ingredient": "Light Herb Chickpeas",
+        "quantityG": 70
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Cucumber",
+        "quantityG": 30
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Carrot",
+        "quantityG": 30
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Corn",
+        "quantityG": 25
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Bell Pepper",
+        "quantityG": 30
+      },
+      {
+        "component": "Crunch",
+        "ingredient": "Roasted Peanuts",
+        "quantityG": 10
+      },
+      {
+        "component": "Add-on",
+        "ingredient": "Fresh Lemon Wedge",
+        "quantityG": null
+      }
     ],
     "totalWeightG": 290,
     "capacityMl": 750,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-001", "productId": "prod-001",
-      "calories": 420, "proteinG": 15, "carbsG": 52, "fatG": 13,
-      "fiberG": 11, "sugarG": 5, "sodiumMg": 280,
-      "vitamins": { "Vitamin C": "18mg", "Iron": "3.2mg", "Folate": "120mcg" }
+      "id": "nut-001",
+      "productId": "prod-001",
+      "calories": 420,
+      "proteinG": 15,
+      "carbsG": 52,
+      "fatG": 13,
+      "fiberG": 11,
+      "sugarG": 5,
+      "sodiumMg": 280,
+      "vitamins": {
+        "Vitamin C": "18mg",
+        "Iron": "3.2mg",
+        "Folate": "120mcg"
+      }
     },
     "isFeatured": true,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [
+      "Peanuts"
+    ],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-002",
@@ -53,44 +119,121 @@
     "available": true,
     "imageUrl": "/images/products/max-protein-bowl.jpg",
     "emoji": "💪",
-    "tags": ["high-protein", "gluten-free"],
-    "benefits": ["High protein", "Muscle recovery", "Antioxidant-rich"],
-    "pairingTags": ["prod-023", "prod-021"],
+    "tags": [
+      "high-protein",
+      "gluten-free"
+    ],
+    "benefits": [
+      "High protein",
+      "Muscle recovery",
+      "Antioxidant-rich"
+    ],
+    "pairingTags": [
+      "prod-023",
+      "prod-021"
+    ],
     "suggestedDressing": "Tahini Garlic",
     "dressingIncluded": false,
     "components": [
-      { "component": "Base",        "ingredient": "Millet",                                       "quantityG": 60   },
-      { "component": "Base",        "ingredient": "Quinoa",                                       "quantityG": 20   },
-      { "component": "Greens",      "ingredient": "Kale",                                         "quantityG": 30   },
-      { "component": "Protein",     "ingredient": "Mixed Sprouts",                                "quantityG": 70   },
-      { "component": "Protein",     "ingredient": "Edamame",                                      "quantityG": 70   },
-      { "component": "Protein",     "ingredient": "Low fat Paneer",                               "quantityG": 70   },
-      { "component": "Veg",         "ingredient": "Cucumber",                                     "quantityG": 30   },
-      { "component": "Veg",         "ingredient": "Broccoli",                                     "quantityG": 30   },
-      { "component": "Veg",         "ingredient": "Pickled Red Onion",                            "quantityG": 15   },
-      { "component": "Veg",         "ingredient": "Bell Pepper",                                  "quantityG": 30   },
-      { "component": "Microgreens", "ingredient": "Beetroot Microgreens",                         "quantityG": 3    },
-      { "component": "Crunch",      "ingredient": "Sunflower Seeds",                              "quantityG": 10   },
-      { "component": "Seasoning",   "ingredient": "Black Pepper + Smoked Paprika + Chaat Masala", "quantityG": null }
+      {
+        "component": "Base",
+        "ingredient": "Millet",
+        "quantityG": 60
+      },
+      {
+        "component": "Base",
+        "ingredient": "Quinoa",
+        "quantityG": 20
+      },
+      {
+        "component": "Greens",
+        "ingredient": "Kale",
+        "quantityG": 30
+      },
+      {
+        "component": "Protein",
+        "ingredient": "Mixed Sprouts",
+        "quantityG": 70
+      },
+      {
+        "component": "Protein",
+        "ingredient": "Edamame",
+        "quantityG": 70
+      },
+      {
+        "component": "Protein",
+        "ingredient": "Low fat Paneer",
+        "quantityG": 70
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Cucumber",
+        "quantityG": 30
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Broccoli",
+        "quantityG": 30
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Pickled Red Onion",
+        "quantityG": 15
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Bell Pepper",
+        "quantityG": 30
+      },
+      {
+        "component": "Microgreens",
+        "ingredient": "Beetroot Microgreens",
+        "quantityG": 3
+      },
+      {
+        "component": "Crunch",
+        "ingredient": "Sunflower Seeds",
+        "quantityG": 10
+      },
+      {
+        "component": "Seasoning",
+        "ingredient": "Black Pepper + Smoked Paprika + Chaat Masala",
+        "quantityG": null
+      }
     ],
     "totalWeightG": 283,
     "capacityMl": 750,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-002", "productId": "prod-002",
-      "calories": 560, "proteinG": 40, "carbsG": 49, "fatG": 18,
-      "fiberG": 15, "sugarG": 4, "sodiumMg": 310,
-      "vitamins": { "Vitamin C": "55mg", "Iron": "5.2mg", "Vitamin K": "90mcg" }
+      "id": "nut-002",
+      "productId": "prod-002",
+      "calories": 560,
+      "proteinG": 40,
+      "carbsG": 49,
+      "fatG": 18,
+      "fiberG": 15,
+      "sugarG": 4,
+      "sodiumMg": 310,
+      "vitamins": {
+        "Vitamin C": "55mg",
+        "Iron": "5.2mg",
+        "Vitamin K": "90mcg"
+      }
     },
     "isFeatured": true,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [
+      "Dairy",
+      "Soy"
+    ],
+    "dietaryType": "vegetarian"
   },
   {
     "id": "prod-003",
     "name": "Premium Harvest Bowl",
     "slug": "premium-harvest-bowl",
-    "description": "Crafted for those who enjoy gourmet flavours without compromising nutrition. Quinoa with low fat paneer, peppery arugula, roasted zucchini, cherry tomatoes, and white radish microgreens. Crushed almonds for crunch, finished with oregano and sea salt.",
+    "description": "Crafted for those who enjoy gourmet flavours without compromising nutrition. Quinoa with low fat paneer, peppery arugula, roasted zucchini, cherry tomatoes, and white radish microgreens.",
     "shortDescription": "Quinoa, grilled paneer, arugula, roasted zucchini, cherry tomato, almonds",
     "categoryId": "cat-001",
     "price": 249,
@@ -98,34 +241,96 @@
     "available": true,
     "imageUrl": "/images/products/premium-harvest-bowl.jpg",
     "emoji": "🌾",
-    "tags": ["vegetarian", "high-protein", "premium"],
-    "benefits": ["Complete protein", "Calcium-rich", "Anti-inflammatory"],
-    "pairingTags": ["prod-024", "prod-025"],
+    "tags": [
+      "vegetarian",
+      "high-protein",
+      "premium"
+    ],
+    "benefits": [
+      "Complete protein",
+      "Calcium-rich",
+      "Anti-inflammatory"
+    ],
+    "pairingTags": [
+      "prod-024",
+      "prod-025"
+    ],
     "suggestedDressing": "Garlic Parmesan",
     "dressingIncluded": false,
     "components": [
-      { "component": "Base",        "ingredient": "Quinoa",                   "quantityG": 80   },
-      { "component": "Greens",      "ingredient": "Arugula",                  "quantityG": 30   },
-      { "component": "Protein",     "ingredient": "Marinated Paneer",         "quantityG": 90   },
-      { "component": "Veg",         "ingredient": "Zucchini",                 "quantityG": 50   },
-      { "component": "Veg",         "ingredient": "Bell Pepper",              "quantityG": 50   },
-      { "component": "Veg",         "ingredient": "Cherry Tomato",            "quantityG": 50   },
-      { "component": "Microgreens", "ingredient": "White Radish Microgreens", "quantityG": 3    },
-      { "component": "Crunch",      "ingredient": "Crushed Almonds",          "quantityG": 10   },
-      { "component": "Seasoning",   "ingredient": "Oregano + Sea Salt",       "quantityG": null }
+      {
+        "component": "Base",
+        "ingredient": "Quinoa",
+        "quantityG": 80
+      },
+      {
+        "component": "Greens",
+        "ingredient": "Arugula",
+        "quantityG": 30
+      },
+      {
+        "component": "Protein",
+        "ingredient": "Marinated Paneer",
+        "quantityG": 90
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Zucchini",
+        "quantityG": 50
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Bell Pepper",
+        "quantityG": 50
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Cherry Tomato",
+        "quantityG": 50
+      },
+      {
+        "component": "Microgreens",
+        "ingredient": "White Radish Microgreens",
+        "quantityG": 3
+      },
+      {
+        "component": "Crunch",
+        "ingredient": "Crushed Almonds",
+        "quantityG": 10
+      },
+      {
+        "component": "Seasoning",
+        "ingredient": "Oregano + Sea Salt",
+        "quantityG": null
+      }
     ],
     "totalWeightG": 253,
     "capacityMl": 750,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-003", "productId": "prod-003",
-      "calories": 440, "proteinG": 24, "carbsG": 42, "fatG": 17,
-      "fiberG": 7, "sugarG": 5, "sodiumMg": 340,
-      "vitamins": { "Calcium": "280mg", "Vitamin K": "60mcg", "Iron": "4.1mg" }
+      "id": "nut-003",
+      "productId": "prod-003",
+      "calories": 440,
+      "proteinG": 24,
+      "carbsG": 42,
+      "fatG": 17,
+      "fiberG": 7,
+      "sugarG": 5,
+      "sodiumMg": 340,
+      "vitamins": {
+        "Calcium": "280mg",
+        "Vitamin K": "60mcg",
+        "Iron": "4.1mg"
+      }
     },
     "isFeatured": true,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [
+      "Dairy",
+      "Tree Nuts"
+    ],
+    "dietaryType": "vegetarian"
   },
   {
     "id": "prod-004",
@@ -139,27 +344,62 @@
     "available": true,
     "imageUrl": "/images/products/spicy-pina-bowl.jpg",
     "emoji": "🍍",
-    "tags": ["vegan", "gluten-free", "spicy", "bold"],
-    "benefits": ["Digestive enzymes", "Vitamin C", "Anti-inflammatory"],
-    "pairingTags": ["prod-026", "prod-027"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "spicy",
+      "bold"
+    ],
+    "benefits": [
+      "Digestive enzymes",
+      "Vitamin C",
+      "Anti-inflammatory"
+    ],
+    "pairingTags": [
+      "prod-026",
+      "prod-027"
+    ],
     "suggestedDressing": "Honey Lime Classic",
     "dressingIncluded": false,
     "components": [
-      { "component": "Fruit",     "ingredient": "Pineapple (chunks)", "quantityG": null },
-      { "component": "Heat",      "ingredient": "Jalapeño (sliced)",  "quantityG": null },
-      { "component": "Seasoning", "ingredient": "Paprika",            "quantityG": null }
+      {
+        "component": "Fruit",
+        "ingredient": "Pineapple (chunks)",
+        "quantityG": null
+      },
+      {
+        "component": "Heat",
+        "ingredient": "Jalapeño (sliced)",
+        "quantityG": null
+      },
+      {
+        "component": "Seasoning",
+        "ingredient": "Paprika",
+        "quantityG": null
+      }
     ],
     "capacityMl": 500,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-004", "productId": "prod-004",
-      "calories": 95, "proteinG": 1, "carbsG": 24, "fatG": 0.3,
-      "fiberG": 3, "sugarG": 18, "sodiumMg": 10,
-      "vitamins": { "Vitamin C": "52mg", "Vitamin B6": "0.2mg" }
+      "id": "nut-004",
+      "productId": "prod-004",
+      "calories": 95,
+      "proteinG": 1,
+      "carbsG": 24,
+      "fatG": 0.3,
+      "fiberG": 3,
+      "sugarG": 18,
+      "sodiumMg": 10,
+      "vitamins": {
+        "Vitamin C": "52mg",
+        "Vitamin B6": "0.2mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-005",
@@ -173,29 +413,73 @@
     "available": true,
     "imageUrl": "/images/products/summer-circle-bowl.jpg",
     "emoji": "🍉",
-    "tags": ["vegan", "gluten-free", "hydrating", "fresh"],
-    "benefits": ["Deep hydration", "Natural electrolytes", "Antioxidant-rich"],
-    "pairingTags": ["prod-028", "prod-026"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "hydrating",
+      "fresh"
+    ],
+    "benefits": [
+      "Deep hydration",
+      "Natural electrolytes",
+      "Antioxidant-rich"
+    ],
+    "pairingTags": [
+      "prod-028",
+      "prod-026"
+    ],
     "suggestedDressing": "Coconut Cream",
     "dressingIncluded": false,
     "components": [
-      { "component": "Fruit", "ingredient": "Watermelon (rounds)",   "quantityG": null },
-      { "component": "Fruit", "ingredient": "Muskmelon (rounds)",    "quantityG": null },
-      { "component": "Fruit", "ingredient": "Dragon Fruit (rounds)", "quantityG": null },
-      { "component": "Fruit", "ingredient": "Black Grapes",          "quantityG": null },
-      { "component": "Herb",  "ingredient": "Fresh Mint Leaves",     "quantityG": null }
+      {
+        "component": "Fruit",
+        "ingredient": "Watermelon (rounds)",
+        "quantityG": null
+      },
+      {
+        "component": "Fruit",
+        "ingredient": "Muskmelon (rounds)",
+        "quantityG": null
+      },
+      {
+        "component": "Fruit",
+        "ingredient": "Dragon Fruit (rounds)",
+        "quantityG": null
+      },
+      {
+        "component": "Fruit",
+        "ingredient": "Black Grapes",
+        "quantityG": null
+      },
+      {
+        "component": "Herb",
+        "ingredient": "Fresh Mint Leaves",
+        "quantityG": null
+      }
     ],
     "capacityMl": 500,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-005", "productId": "prod-005",
-      "calories": 105, "proteinG": 1.5, "carbsG": 26, "fatG": 0.4,
-      "fiberG": 3, "sugarG": 22, "sodiumMg": 8,
-      "vitamins": { "Vitamin C": "18mg", "Vitamin A": "60mcg", "Potassium": "380mg" }
+      "id": "nut-005",
+      "productId": "prod-005",
+      "calories": 105,
+      "proteinG": 1.5,
+      "carbsG": 26,
+      "fatG": 0.4,
+      "fiberG": 3,
+      "sugarG": 22,
+      "sodiumMg": 8,
+      "vitamins": {
+        "Vitamin C": "18mg",
+        "Vitamin A": "60mcg",
+        "Potassium": "380mg"
+      }
     },
     "isFeatured": true,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-006",
@@ -209,27 +493,61 @@
     "available": true,
     "imageUrl": "/images/products/apple-loaded-fries.jpg",
     "emoji": "🍎",
-    "tags": ["vegan", "gluten-free", "seasonal"],
-    "benefits": ["Gut health fibre", "Antioxidants", "Natural sweetness"],
-    "pairingTags": ["prod-029", "prod-030"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "seasonal"
+    ],
+    "benefits": [
+      "Gut health fibre",
+      "Antioxidants",
+      "Natural sweetness"
+    ],
+    "pairingTags": [
+      "prod-029",
+      "prod-030"
+    ],
     "suggestedDressing": "Maple Syrup or Ginger Honey Zest",
     "dressingIncluded": false,
     "components": [
-      { "component": "Fruit",  "ingredient": "Red Apple (sliced)",   "quantityG": null },
-      { "component": "Fruit",  "ingredient": "Green Apple (sliced)", "quantityG": null },
-      { "component": "Spice",  "ingredient": "Cinnamon Sachet",      "quantityG": null }
+      {
+        "component": "Fruit",
+        "ingredient": "Red Apple (sliced)",
+        "quantityG": null
+      },
+      {
+        "component": "Fruit",
+        "ingredient": "Green Apple (sliced)",
+        "quantityG": null
+      },
+      {
+        "component": "Spice",
+        "ingredient": "Cinnamon Sachet",
+        "quantityG": null
+      }
     ],
     "capacityMl": 500,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-006", "productId": "prod-006",
-      "calories": 110, "proteinG": 0.5, "carbsG": 29, "fatG": 0.3,
-      "fiberG": 5, "sugarG": 22, "sodiumMg": 4,
-      "vitamins": { "Vitamin C": "10mg", "Potassium": "260mg" }
+      "id": "nut-006",
+      "productId": "prod-006",
+      "calories": 110,
+      "proteinG": 0.5,
+      "carbsG": 29,
+      "fatG": 0.3,
+      "fiberG": 5,
+      "sugarG": 22,
+      "sodiumMg": 4,
+      "vitamins": {
+        "Vitamin C": "10mg",
+        "Potassium": "260mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-007",
@@ -243,19 +561,37 @@
     "available": true,
     "imageUrl": "/images/products/ginger-turmeric-shot.jpg",
     "emoji": "⚡",
-    "tags": ["vegan", "anti-inflammatory", "immunity"],
-    "benefits": ["Anti-inflammatory", "Immunity boost", "Curcumin + piperine"],
+    "tags": [
+      "vegan",
+      "anti-inflammatory",
+      "immunity"
+    ],
+    "benefits": [
+      "Anti-inflammatory",
+      "Immunity boost",
+      "Curcumin + piperine"
+    ],
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-007", "productId": "prod-007",
-      "calories": 25, "proteinG": 0.5, "carbsG": 5, "fatG": 0.2,
-      "fiberG": 0.5, "sugarG": 3, "sodiumMg": 15,
-      "vitamins": { "Vitamin C": "8mg" }
+      "id": "nut-007",
+      "productId": "prod-007",
+      "calories": 25,
+      "proteinG": 0.5,
+      "carbsG": 5,
+      "fatG": 0.2,
+      "fiberG": 0.5,
+      "sugarG": 3,
+      "sodiumMg": 15,
+      "vitamins": {
+        "Vitamin C": "8mg"
+      }
     },
     "isFeatured": true,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-008",
@@ -269,19 +605,37 @@
     "available": true,
     "imageUrl": "/images/products/lemon-ginger-shot.jpg",
     "emoji": "🍋",
-    "tags": ["vegan", "digestive", "vitamin-c"],
-    "benefits": ["Vitamin C", "Digestive support", "Detox kickstart"],
+    "tags": [
+      "vegan",
+      "digestive",
+      "vitamin-c"
+    ],
+    "benefits": [
+      "Vitamin C",
+      "Digestive support",
+      "Detox kickstart"
+    ],
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-008", "productId": "prod-008",
-      "calories": 22, "proteinG": 0.3, "carbsG": 5, "fatG": 0,
-      "fiberG": 0.2, "sugarG": 3, "sodiumMg": 80,
-      "vitamins": { "Vitamin C": "14mg" }
+      "id": "nut-008",
+      "productId": "prod-008",
+      "calories": 22,
+      "proteinG": 0.3,
+      "carbsG": 5,
+      "fatG": 0,
+      "fiberG": 0.2,
+      "sugarG": 3,
+      "sodiumMg": 80,
+      "vitamins": {
+        "Vitamin C": "14mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-009",
@@ -295,19 +649,38 @@
     "available": true,
     "imageUrl": "/images/products/tulsi-ginger-shot.jpg",
     "emoji": "🌱",
-    "tags": ["ayurvedic", "adaptogenic", "immunity"],
-    "benefits": ["Stress relief", "Respiratory health", "Adaptogenic"],
+    "tags": [
+      "ayurvedic",
+      "adaptogenic",
+      "immunity"
+    ],
+    "benefits": [
+      "Stress relief",
+      "Respiratory health",
+      "Adaptogenic"
+    ],
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-009", "productId": "prod-009",
-      "calories": 30, "proteinG": 0.3, "carbsG": 7, "fatG": 0.1,
-      "fiberG": 0.2, "sugarG": 6, "sodiumMg": 10,
-      "vitamins": { "Vitamin C": "12mg", "Vitamin K": "15mcg" }
+      "id": "nut-009",
+      "productId": "prod-009",
+      "calories": 30,
+      "proteinG": 0.3,
+      "carbsG": 7,
+      "fatG": 0.1,
+      "fiberG": 0.2,
+      "sugarG": 6,
+      "sodiumMg": 10,
+      "vitamins": {
+        "Vitamin C": "12mg",
+        "Vitamin K": "15mcg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-010",
@@ -321,19 +694,37 @@
     "available": true,
     "imageUrl": "/images/products/amla-shot.jpg",
     "emoji": "🌿",
-    "tags": ["ayurvedic", "vitamin-c", "antioxidant"],
-    "benefits": ["20× Vitamin C", "Hair health", "Collagen synthesis"],
+    "tags": [
+      "ayurvedic",
+      "vitamin-c",
+      "antioxidant"
+    ],
+    "benefits": [
+      "20× Vitamin C",
+      "Hair health",
+      "Collagen synthesis"
+    ],
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-010", "productId": "prod-010",
-      "calories": 20, "proteinG": 0.4, "carbsG": 5, "fatG": 0.1,
-      "fiberG": 1, "sugarG": 3, "sodiumMg": 5,
-      "vitamins": { "Vitamin C": "180mg" }
+      "id": "nut-010",
+      "productId": "prod-010",
+      "calories": 20,
+      "proteinG": 0.4,
+      "carbsG": 5,
+      "fatG": 0.1,
+      "fiberG": 1,
+      "sugarG": 3,
+      "sodiumMg": 5,
+      "vitamins": {
+        "Vitamin C": "180mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-011",
@@ -347,19 +738,38 @@
     "available": true,
     "imageUrl": "/images/products/wheatgrass-shot.jpg",
     "emoji": "🌾",
-    "tags": ["vegan", "detox", "alkalising"],
-    "benefits": ["Blood purifying", "Alkalising", "Energy boost"],
+    "tags": [
+      "vegan",
+      "detox",
+      "alkalising"
+    ],
+    "benefits": [
+      "Blood purifying",
+      "Alkalising",
+      "Energy boost"
+    ],
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-011", "productId": "prod-011",
-      "calories": 15, "proteinG": 1, "carbsG": 2.5, "fatG": 0.1,
-      "fiberG": 0.5, "sugarG": 1, "sodiumMg": 8,
-      "vitamins": { "Vitamin K": "80mcg", "Iron": "1.8mg" }
+      "id": "nut-011",
+      "productId": "prod-011",
+      "calories": 15,
+      "proteinG": 1,
+      "carbsG": 2.5,
+      "fatG": 0.1,
+      "fiberG": 0.5,
+      "sugarG": 1,
+      "sodiumMg": 8,
+      "vitamins": {
+        "Vitamin K": "80mcg",
+        "Iron": "1.8mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-012",
@@ -373,19 +783,38 @@
     "available": true,
     "imageUrl": "/images/products/aloe-vera-shot.jpg",
     "emoji": "💚",
-    "tags": ["vegan", "gut-health", "skin"],
-    "benefits": ["Gut soothing", "Skin hydration", "Anti-inflammatory"],
+    "tags": [
+      "vegan",
+      "gut-health",
+      "skin"
+    ],
+    "benefits": [
+      "Gut soothing",
+      "Skin hydration",
+      "Anti-inflammatory"
+    ],
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-012", "productId": "prod-012",
-      "calories": 18, "proteinG": 0.2, "carbsG": 4, "fatG": 0,
-      "fiberG": 0.3, "sugarG": 2, "sodiumMg": 6,
-      "vitamins": { "Vitamin E": "1.2mg", "Vitamin C": "4mg" }
+      "id": "nut-012",
+      "productId": "prod-012",
+      "calories": 18,
+      "proteinG": 0.2,
+      "carbsG": 4,
+      "fatG": 0,
+      "fiberG": 0.3,
+      "sugarG": 2,
+      "sodiumMg": 6,
+      "vitamins": {
+        "Vitamin E": "1.2mg",
+        "Vitamin C": "4mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-013",
@@ -399,19 +828,38 @@
     "available": true,
     "imageUrl": "/images/products/coconut-water.jpg",
     "emoji": "🥥",
-    "tags": ["vegan", "electrolytes", "natural"],
-    "benefits": ["Deep hydration", "Natural electrolytes", "Low calorie"],
+    "tags": [
+      "vegan",
+      "electrolytes",
+      "natural"
+    ],
+    "benefits": [
+      "Deep hydration",
+      "Natural electrolytes",
+      "Low calorie"
+    ],
     "capacityMl": 450,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-013", "productId": "prod-013",
-      "calories": 60, "proteinG": 0.7, "carbsG": 15, "fatG": 0.2,
-      "fiberG": 0, "sugarG": 14, "sodiumMg": 25,
-      "vitamins": { "Potassium": "600mg", "Magnesium": "28mg" }
+      "id": "nut-013",
+      "productId": "prod-013",
+      "calories": 60,
+      "proteinG": 0.7,
+      "carbsG": 15,
+      "fatG": 0.2,
+      "fiberG": 0,
+      "sugarG": 14,
+      "sodiumMg": 25,
+      "vitamins": {
+        "Potassium": "600mg",
+        "Magnesium": "28mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-014",
@@ -425,19 +873,38 @@
     "available": true,
     "imageUrl": "/images/products/kombucha.jpg",
     "emoji": "🫧",
-    "tags": ["probiotic", "gut-health", "fermented"],
-    "benefits": ["Gut microbiome", "Improved digestion", "Liver support"],
+    "tags": [
+      "probiotic",
+      "gut-health",
+      "fermented"
+    ],
+    "benefits": [
+      "Gut microbiome",
+      "Improved digestion",
+      "Liver support"
+    ],
     "capacityMl": 450,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-014", "productId": "prod-014",
-      "calories": 45, "proteinG": 0, "carbsG": 10, "fatG": 0,
-      "fiberG": 0, "sugarG": 8, "sodiumMg": 15,
-      "vitamins": { "Vitamin B12": "0.8mcg", "Vitamin B6": "0.2mg" }
+      "id": "nut-014",
+      "productId": "prod-014",
+      "calories": 45,
+      "proteinG": 0,
+      "carbsG": 10,
+      "fatG": 0,
+      "fiberG": 0,
+      "sugarG": 8,
+      "sodiumMg": 15,
+      "vitamins": {
+        "Vitamin B12": "0.8mcg",
+        "Vitamin B6": "0.2mg"
+      }
     },
     "isFeatured": true,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-015",
@@ -451,19 +918,40 @@
     "available": true,
     "imageUrl": "/images/products/protein-smoothie.jpg",
     "emoji": "🥛",
-    "tags": ["vegan", "high-protein", "post-workout"],
-    "benefits": ["20g plant protein", "Post-workout recovery", "Vegan-friendly"],
+    "tags": [
+      "vegan",
+      "high-protein",
+      "post-workout"
+    ],
+    "benefits": [
+      "20g plant protein",
+      "Post-workout recovery",
+      "Vegan-friendly"
+    ],
     "capacityMl": 450,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-015", "productId": "prod-015",
-      "calories": 280, "proteinG": 20, "carbsG": 32, "fatG": 8,
-      "fiberG": 4, "sugarG": 14, "sodiumMg": 140,
-      "vitamins": { "Calcium": "220mg", "Iron": "2.8mg" }
+      "id": "nut-015",
+      "productId": "prod-015",
+      "calories": 280,
+      "proteinG": 20,
+      "carbsG": 32,
+      "fatG": 8,
+      "fiberG": 4,
+      "sugarG": 14,
+      "sodiumMg": 140,
+      "vitamins": {
+        "Calcium": "220mg",
+        "Iron": "2.8mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [
+      "Tree Nuts"
+    ],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-016",
@@ -477,18 +965,37 @@
     "available": true,
     "imageUrl": "/images/products/makhana.jpg",
     "emoji": "🍿",
-    "tags": ["vegan", "gluten-free", "low-calorie"],
-    "benefits": ["Low calorie", "High magnesium", "Antioxidant-rich"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "low-calorie"
+    ],
+    "benefits": [
+      "Low calorie",
+      "High magnesium",
+      "Antioxidant-rich"
+    ],
     "ingredients": [],
     "nutrition": {
-      "id": "nut-016", "productId": "prod-016",
-      "calories": 150, "proteinG": 4, "carbsG": 32, "fatG": 1,
-      "fiberG": 2, "sugarG": 0, "sodiumMg": 120,
-      "vitamins": { "Magnesium": "56mg", "Phosphorus": "200mg" }
+      "id": "nut-016",
+      "productId": "prod-016",
+      "calories": 150,
+      "proteinG": 4,
+      "carbsG": 32,
+      "fatG": 1,
+      "fiberG": 2,
+      "sugarG": 0,
+      "sodiumMg": 120,
+      "vitamins": {
+        "Magnesium": "56mg",
+        "Phosphorus": "200mg"
+      }
     },
     "isFeatured": true,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-017",
@@ -502,18 +1009,39 @@
     "available": true,
     "imageUrl": "/images/products/trail-mix.jpg",
     "emoji": "🥜",
-    "tags": ["vegan", "heart-healthy", "omega-3"],
-    "benefits": ["Omega-3 fats", "Brain health", "Sustained energy"],
+    "tags": [
+      "vegan",
+      "heart-healthy",
+      "omega-3"
+    ],
+    "benefits": [
+      "Omega-3 fats",
+      "Brain health",
+      "Sustained energy"
+    ],
     "ingredients": [],
     "nutrition": {
-      "id": "nut-017", "productId": "prod-017",
-      "calories": 180, "proteinG": 5, "carbsG": 16, "fatG": 11,
-      "fiberG": 3, "sugarG": 8, "sodiumMg": 10,
-      "vitamins": { "Vitamin E": "4mg", "Magnesium": "45mg" }
+      "id": "nut-017",
+      "productId": "prod-017",
+      "calories": 180,
+      "proteinG": 5,
+      "carbsG": 16,
+      "fatG": 11,
+      "fiberG": 3,
+      "sugarG": 8,
+      "sodiumMg": 10,
+      "vitamins": {
+        "Vitamin E": "4mg",
+        "Magnesium": "45mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [
+      "Tree Nuts"
+    ],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-018",
@@ -527,18 +1055,37 @@
     "available": true,
     "imageUrl": "/images/products/roasted-chickpeas.jpg",
     "emoji": "🫘",
-    "tags": ["vegan", "gluten-free", "high-fibre"],
-    "benefits": ["High fibre", "Plant protein", "Gut health"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "high-fibre"
+    ],
+    "benefits": [
+      "High fibre",
+      "Plant protein",
+      "Gut health"
+    ],
     "ingredients": [],
     "nutrition": {
-      "id": "nut-018", "productId": "prod-018",
-      "calories": 160, "proteinG": 6, "carbsG": 22, "fatG": 4,
-      "fiberG": 6, "sugarG": 2, "sodiumMg": 180,
-      "vitamins": { "Iron": "2.1mg", "Folate": "80mcg" }
+      "id": "nut-018",
+      "productId": "prod-018",
+      "calories": 160,
+      "proteinG": 6,
+      "carbsG": 22,
+      "fatG": 4,
+      "fiberG": 6,
+      "sugarG": 2,
+      "sodiumMg": 180,
+      "vitamins": {
+        "Iron": "2.1mg",
+        "Folate": "80mcg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-019",
@@ -552,18 +1099,38 @@
     "available": true,
     "imageUrl": "/images/products/seed-mix.jpg",
     "emoji": "🌻",
-    "tags": ["vegan", "gluten-free", "omega-3"],
-    "benefits": ["Omega-3", "Hormone support", "Heart health"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "omega-3"
+    ],
+    "benefits": [
+      "Omega-3",
+      "Hormone support",
+      "Heart health"
+    ],
     "ingredients": [],
     "nutrition": {
-      "id": "nut-019", "productId": "prod-019",
-      "calories": 175, "proteinG": 6, "carbsG": 8, "fatG": 14,
-      "fiberG": 4, "sugarG": 0, "sodiumMg": 5,
-      "vitamins": { "Vitamin E": "3.5mg", "Magnesium": "90mg", "Zinc": "2.1mg" }
+      "id": "nut-019",
+      "productId": "prod-019",
+      "calories": 175,
+      "proteinG": 6,
+      "carbsG": 8,
+      "fatG": 14,
+      "fiberG": 4,
+      "sugarG": 0,
+      "sodiumMg": 5,
+      "vitamins": {
+        "Vitamin E": "3.5mg",
+        "Magnesium": "90mg",
+        "Zinc": "2.1mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-021",
@@ -577,21 +1144,44 @@
     "available": true,
     "imageUrl": "/images/products/dressing-peri-peri.jpg",
     "emoji": "🌶️",
-    "tags": ["vegetarian", "spicy", "creamy"],
-    "benefits": ["Probiotic base", "High flavour", "Low calorie"],
-    "pairingTags": ["prod-001", "prod-002"],
+    "tags": [
+      "vegetarian",
+      "spicy",
+      "creamy"
+    ],
+    "benefits": [
+      "Probiotic base",
+      "High flavour",
+      "Low calorie"
+    ],
+    "pairingTags": [
+      "prod-001",
+      "prod-002"
+    ],
     "dressingType": "salad",
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-021", "productId": "prod-021",
-      "calories": 45, "proteinG": 3, "carbsG": 4, "fatG": 2,
-      "fiberG": 0, "sugarG": 3, "sodiumMg": 140,
-      "vitamins": { "Calcium": "80mg" }
+      "id": "nut-021",
+      "productId": "prod-021",
+      "calories": 45,
+      "proteinG": 3,
+      "carbsG": 4,
+      "fatG": 2,
+      "fiberG": 0,
+      "sugarG": 3,
+      "sodiumMg": 140,
+      "vitamins": {
+        "Calcium": "80mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [
+      "Dairy"
+    ],
+    "dietaryType": "vegetarian"
   },
   {
     "id": "prod-022",
@@ -605,21 +1195,42 @@
     "available": true,
     "imageUrl": "/images/products/dressing-lemon-vin.jpg",
     "emoji": "🍋",
-    "tags": ["vegan", "gluten-free", "classic"],
-    "benefits": ["Healthy fats", "Antioxidant-rich", "Heart-healthy"],
-    "pairingTags": ["prod-001", "prod-003"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "classic"
+    ],
+    "benefits": [
+      "Healthy fats",
+      "Antioxidant-rich",
+      "Heart-healthy"
+    ],
+    "pairingTags": [
+      "prod-001",
+      "prod-003"
+    ],
     "dressingType": "salad",
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-022", "productId": "prod-022",
-      "calories": 80, "proteinG": 0.2, "carbsG": 2, "fatG": 8,
-      "fiberG": 0, "sugarG": 1, "sodiumMg": 110,
-      "vitamins": { "Vitamin E": "1.8mg" }
+      "id": "nut-022",
+      "productId": "prod-022",
+      "calories": 80,
+      "proteinG": 0.2,
+      "carbsG": 2,
+      "fatG": 8,
+      "fiberG": 0,
+      "sugarG": 1,
+      "sodiumMg": 110,
+      "vitamins": {
+        "Vitamin E": "1.8mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-023",
@@ -633,21 +1244,45 @@
     "available": true,
     "imageUrl": "/images/products/dressing-tahini-garlic.jpg",
     "emoji": "🧄",
-    "tags": ["vegan", "gluten-free", "nutty"],
-    "benefits": ["Sesame calcium", "Healthy fats", "Prebiotic garlic"],
-    "pairingTags": ["prod-001", "prod-002"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "nutty"
+    ],
+    "benefits": [
+      "Sesame calcium",
+      "Healthy fats",
+      "Prebiotic garlic"
+    ],
+    "pairingTags": [
+      "prod-001",
+      "prod-002"
+    ],
     "dressingType": "salad",
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-023", "productId": "prod-023",
-      "calories": 95, "proteinG": 2.5, "carbsG": 4, "fatG": 8.5,
-      "fiberG": 1, "sugarG": 1, "sodiumMg": 130,
-      "vitamins": { "Calcium": "60mg", "Iron": "1.2mg" }
+      "id": "nut-023",
+      "productId": "prod-023",
+      "calories": 95,
+      "proteinG": 2.5,
+      "carbsG": 4,
+      "fatG": 8.5,
+      "fiberG": 1,
+      "sugarG": 1,
+      "sodiumMg": 130,
+      "vitamins": {
+        "Calcium": "60mg",
+        "Iron": "1.2mg"
+      }
     },
     "isFeatured": true,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [
+      "Sesame"
+    ],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-024",
@@ -661,21 +1296,45 @@
     "available": true,
     "imageUrl": "/images/products/dressing-garlic-parm.jpg",
     "emoji": "🧀",
-    "tags": ["vegetarian", "creamy", "bold"],
-    "benefits": ["Calcium-rich", "Probiotic base", "High-flavour"],
-    "pairingTags": ["prod-003", "prod-001"],
+    "tags": [
+      "vegetarian",
+      "creamy",
+      "bold"
+    ],
+    "benefits": [
+      "Calcium-rich",
+      "Probiotic base",
+      "High-flavour"
+    ],
+    "pairingTags": [
+      "prod-003",
+      "prod-001"
+    ],
     "dressingType": "salad",
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-024", "productId": "prod-024",
-      "calories": 75, "proteinG": 4, "carbsG": 3, "fatG": 5,
-      "fiberG": 0, "sugarG": 2, "sodiumMg": 200,
-      "vitamins": { "Calcium": "120mg", "Vitamin A": "40mcg" }
+      "id": "nut-024",
+      "productId": "prod-024",
+      "calories": 75,
+      "proteinG": 4,
+      "carbsG": 3,
+      "fatG": 5,
+      "fiberG": 0,
+      "sugarG": 2,
+      "sodiumMg": 200,
+      "vitamins": {
+        "Calcium": "120mg",
+        "Vitamin A": "40mcg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [
+      "Dairy"
+    ],
+    "dietaryType": "vegetarian"
   },
   {
     "id": "prod-025",
@@ -689,21 +1348,45 @@
     "available": true,
     "imageUrl": "/images/products/dressing-green-goddess.jpg",
     "emoji": "🌿",
-    "tags": ["vegan", "gluten-free", "herby", "fresh"],
-    "benefits": ["Chlorophyll-rich", "Digestive herbs", "Anti-inflammatory"],
-    "pairingTags": ["prod-003", "prod-001", "prod-002"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "herby",
+      "fresh"
+    ],
+    "benefits": [
+      "Chlorophyll-rich",
+      "Digestive herbs",
+      "Anti-inflammatory"
+    ],
+    "pairingTags": [
+      "prod-003",
+      "prod-001",
+      "prod-002"
+    ],
     "dressingType": "salad",
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-025", "productId": "prod-025",
-      "calories": 60, "proteinG": 0.8, "carbsG": 3, "fatG": 5.5,
-      "fiberG": 0.5, "sugarG": 1, "sodiumMg": 95,
-      "vitamins": { "Vitamin K": "40mcg", "Vitamin C": "6mg" }
+      "id": "nut-025",
+      "productId": "prod-025",
+      "calories": 60,
+      "proteinG": 0.8,
+      "carbsG": 3,
+      "fatG": 5.5,
+      "fiberG": 0.5,
+      "sugarG": 1,
+      "sodiumMg": 95,
+      "vitamins": {
+        "Vitamin K": "40mcg",
+        "Vitamin C": "6mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-026",
@@ -717,21 +1400,43 @@
     "available": true,
     "imageUrl": "/images/products/fruit-dressing-honey-lime.jpg",
     "emoji": "🍯",
-    "tags": ["natural", "gluten-free", "sweet"],
-    "benefits": ["Natural sweetener", "Vitamin C", "Digestive"],
-    "pairingTags": ["prod-004", "prod-005", "prod-006"],
+    "tags": [
+      "natural",
+      "gluten-free",
+      "sweet"
+    ],
+    "benefits": [
+      "Natural sweetener",
+      "Vitamin C",
+      "Digestive"
+    ],
+    "pairingTags": [
+      "prod-004",
+      "prod-005",
+      "prod-006"
+    ],
     "dressingType": "fruit",
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-026", "productId": "prod-026",
-      "calories": 55, "proteinG": 0.1, "carbsG": 14, "fatG": 0,
-      "fiberG": 0, "sugarG": 13, "sodiumMg": 30,
-      "vitamins": { "Vitamin C": "5mg" }
+      "id": "nut-026",
+      "productId": "prod-026",
+      "calories": 55,
+      "proteinG": 0.1,
+      "carbsG": 14,
+      "fatG": 0,
+      "fiberG": 0,
+      "sugarG": 13,
+      "sodiumMg": 30,
+      "vitamins": {
+        "Vitamin C": "5mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-027",
@@ -745,21 +1450,44 @@
     "available": true,
     "imageUrl": "/images/products/fruit-dressing-chaat.jpg",
     "emoji": "🌶️",
-    "tags": ["vegan", "gluten-free", "bold", "indian"],
-    "benefits": ["Digestive spices", "Vitamin C", "Appetite stimulant"],
-    "pairingTags": ["prod-004", "prod-005"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "bold",
+      "indian"
+    ],
+    "benefits": [
+      "Digestive spices",
+      "Vitamin C",
+      "Appetite stimulant"
+    ],
+    "pairingTags": [
+      "prod-004",
+      "prod-005"
+    ],
     "dressingType": "fruit",
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-027", "productId": "prod-027",
-      "calories": 20, "proteinG": 0.5, "carbsG": 4, "fatG": 0.3,
-      "fiberG": 0.5, "sugarG": 1, "sodiumMg": 320,
-      "vitamins": { "Vitamin C": "8mg", "Iron": "0.8mg" }
+      "id": "nut-027",
+      "productId": "prod-027",
+      "calories": 20,
+      "proteinG": 0.5,
+      "carbsG": 4,
+      "fatG": 0.3,
+      "fiberG": 0.5,
+      "sugarG": 1,
+      "sodiumMg": 320,
+      "vitamins": {
+        "Vitamin C": "8mg",
+        "Iron": "0.8mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-028",
@@ -773,21 +1501,42 @@
     "available": true,
     "imageUrl": "/images/products/fruit-dressing-coconut-cream.jpg",
     "emoji": "🥥",
-    "tags": ["vegan", "gluten-free", "tropical"],
-    "benefits": ["MCT fats", "Natural sweetener", "Gut-friendly"],
-    "pairingTags": ["prod-005", "prod-006"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "tropical"
+    ],
+    "benefits": [
+      "MCT fats",
+      "Natural sweetener",
+      "Gut-friendly"
+    ],
+    "pairingTags": [
+      "prod-005",
+      "prod-006"
+    ],
     "dressingType": "fruit",
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-028", "productId": "prod-028",
-      "calories": 80, "proteinG": 0.5, "carbsG": 6, "fatG": 6.5,
-      "fiberG": 0, "sugarG": 5, "sodiumMg": 15,
-      "vitamins": { "Potassium": "120mg" }
+      "id": "nut-028",
+      "productId": "prod-028",
+      "calories": 80,
+      "proteinG": 0.5,
+      "carbsG": 6,
+      "fatG": 6.5,
+      "fiberG": 0,
+      "sugarG": 5,
+      "sodiumMg": 15,
+      "vitamins": {
+        "Potassium": "120mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-029",
@@ -801,21 +1550,44 @@
     "available": true,
     "imageUrl": "/images/products/fruit-dressing-maple.jpg",
     "emoji": "🍁",
-    "tags": ["vegan", "gluten-free", "natural", "low-gi"],
-    "benefits": ["Low GI sweetener", "Trace minerals", "Antioxidants"],
-    "pairingTags": ["prod-006", "prod-005"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "natural",
+      "low-gi"
+    ],
+    "benefits": [
+      "Low GI sweetener",
+      "Trace minerals",
+      "Antioxidants"
+    ],
+    "pairingTags": [
+      "prod-006",
+      "prod-005"
+    ],
     "dressingType": "fruit",
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-029", "productId": "prod-029",
-      "calories": 105, "proteinG": 0, "carbsG": 27, "fatG": 0,
-      "fiberG": 0, "sugarG": 24, "sodiumMg": 4,
-      "vitamins": { "Manganese": "0.7mg", "Zinc": "0.4mg" }
+      "id": "nut-029",
+      "productId": "prod-029",
+      "calories": 105,
+      "proteinG": 0,
+      "carbsG": 27,
+      "fatG": 0,
+      "fiberG": 0,
+      "sugarG": 24,
+      "sodiumMg": 4,
+      "vitamins": {
+        "Manganese": "0.7mg",
+        "Zinc": "0.4mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-030",
@@ -829,21 +1601,43 @@
     "available": true,
     "imageUrl": "/images/products/fruit-dressing-ginger-honey.jpg",
     "emoji": "🫚",
-    "tags": ["natural", "gluten-free", "warming", "aromatic"],
-    "benefits": ["Anti-inflammatory ginger", "Natural honey", "Digestive cardamom"],
-    "pairingTags": ["prod-006", "prod-004"],
+    "tags": [
+      "natural",
+      "gluten-free",
+      "warming",
+      "aromatic"
+    ],
+    "benefits": [
+      "Anti-inflammatory ginger",
+      "Natural honey",
+      "Digestive cardamom"
+    ],
+    "pairingTags": [
+      "prod-006",
+      "prod-004"
+    ],
     "dressingType": "fruit",
     "capacityMl": 50,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-030", "productId": "prod-030",
-      "calories": 60, "proteinG": 0.2, "carbsG": 15, "fatG": 0,
-      "fiberG": 0.2, "sugarG": 14, "sodiumMg": 5,
-      "vitamins": { "Vitamin C": "4mg" }
+      "id": "nut-030",
+      "productId": "prod-030",
+      "calories": 60,
+      "proteinG": 0.2,
+      "carbsG": 15,
+      "fatG": 0,
+      "fiberG": 0.2,
+      "sugarG": 14,
+      "sodiumMg": 5,
+      "vitamins": {
+        "Vitamin C": "4mg"
+      }
     },
     "isFeatured": false,
     "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-031",
@@ -857,32 +1651,78 @@
     "available": true,
     "imageUrl": "/images/products/rainbow-zoodle-bowl.jpg",
     "emoji": "🌈",
-    "tags": ["vegan", "raw", "gluten-free", "keto-friendly", "light"],
-    "benefits": ["Ultra low calorie", "Raw nutrients", "Hydrating", "Dressing included"],
+    "tags": [
+      "vegan",
+      "raw",
+      "gluten-free",
+      "keto-friendly",
+      "light"
+    ],
+    "benefits": [
+      "Ultra low calorie",
+      "Raw nutrients",
+      "Hydrating",
+      "Dressing included"
+    ],
     "dressingIncluded": true,
     "dressingName": "Asian Soy-Sesame",
     "dressingDescription": "Tamari soy sauce, toasted sesame oil, rice vinegar, fresh ginger, garlic, and a touch of honey. Umami-rich and deeply satisfying.",
     "note": "Dressing is bundled in the box — no separate purchase needed. Asian soy-sesame is specifically designed for this bowl.",
     "components": [
-      { "component": "Base",    "ingredient": "Carrot (spiralised)",          "quantityG": 80 },
-      { "component": "Base",    "ingredient": "Green Zucchini (spiralised)",  "quantityG": 80 },
-      { "component": "Base",    "ingredient": "Yellow Zucchini (spiralised)", "quantityG": 80 },
-      { "component": "Crunch",  "ingredient": "Sesame Seeds",                 "quantityG": 5  },
-      { "component": "Dressing","ingredient": "Asian Soy-Sesame (bundled)",   "quantityG": 50 }
+      {
+        "component": "Base",
+        "ingredient": "Carrot (spiralised)",
+        "quantityG": 80
+      },
+      {
+        "component": "Base",
+        "ingredient": "Green Zucchini (spiralised)",
+        "quantityG": 80
+      },
+      {
+        "component": "Base",
+        "ingredient": "Yellow Zucchini (spiralised)",
+        "quantityG": 80
+      },
+      {
+        "component": "Crunch",
+        "ingredient": "Sesame Seeds",
+        "quantityG": 5
+      },
+      {
+        "component": "Dressing",
+        "ingredient": "Asian Soy-Sesame (bundled)",
+        "quantityG": 50
+      }
     ],
     "totalWeightG": 295,
     "capacityMl": 750,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-031", "productId": "prod-031",
-      "calories": 175, "proteinG": 5, "carbsG": 20, "fatG": 8,
-      "fiberG": 5, "sugarG": 11, "sodiumMg": 380,
-      "vitamins": { "Vitamin A": "480mcg", "Vitamin C": "28mg", "Potassium": "720mg" }
+      "id": "nut-031",
+      "productId": "prod-031",
+      "calories": 175,
+      "proteinG": 5,
+      "carbsG": 20,
+      "fatG": 8,
+      "fiberG": 5,
+      "sugarG": 11,
+      "sodiumMg": 380,
+      "vitamins": {
+        "Vitamin A": "480mcg",
+        "Vitamin C": "28mg",
+        "Potassium": "720mg"
+      }
     },
     "isFeatured": true,
     "weekTag": "This Week",
     "createdAt": "2026-06-07T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [
+      "Soy",
+      "Sesame"
+    ],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-032",
@@ -896,29 +1736,89 @@
     "available": true,
     "imageUrl": "/images/products/lentil-soup.jpg",
     "emoji": "🍵",
-    "tags": ["vegan", "gluten-free", "high-protein", "high-fibre", "warming"],
-    "benefits": ["18g plant protein", "High soluble fibre", "Anti-inflammatory spices", "Gut-healing broth"],
+    "tags": [
+      "vegan",
+      "gluten-free",
+      "high-protein",
+      "high-fibre",
+      "warming"
+    ],
+    "benefits": [
+      "18g plant protein",
+      "High soluble fibre",
+      "Anti-inflammatory spices",
+      "Gut-healing broth"
+    ],
     "note": "Served cold — microwave 90 seconds or consume at room temperature. Best paired with a wellness shot.",
-    "pairingTags": ["prod-007", "prod-010"],
+    "pairingTags": [
+      "prod-007",
+      "prod-010"
+    ],
     "components": [
-      { "component": "Broth",     "ingredient": "Vegetable Broth (low sodium)",        "quantityG": 200  },
-      { "component": "Protein",   "ingredient": "Red Lentils (cooked)",                "quantityG": 120  },
-      { "component": "Greens",    "ingredient": "Baby Spinach",                        "quantityG": 30   },
-      { "component": "Veg",       "ingredient": "Carrot (diced)",                      "quantityG": 40   },
-      { "component": "Veg",       "ingredient": "Celery (diced)",                      "quantityG": 20   },
-      { "component": "Veg",       "ingredient": "Onion (caramelised)",                 "quantityG": 20   },
-      { "component": "Aromatics", "ingredient": "Garlic + Ginger",                     "quantityG": 10   },
-      { "component": "Spice",     "ingredient": "Turmeric + Cumin + Coriander + Black Pepper", "quantityG": null },
-      { "component": "Acid",      "ingredient": "Fresh Lemon Juice",                   "quantityG": null },
-      { "component": "Finish",    "ingredient": "Cold-Pressed Olive Oil (drizzle)",    "quantityG": 5    }
+      {
+        "component": "Broth",
+        "ingredient": "Vegetable Broth (low sodium)",
+        "quantityG": 200
+      },
+      {
+        "component": "Protein",
+        "ingredient": "Red Lentils (cooked)",
+        "quantityG": 120
+      },
+      {
+        "component": "Greens",
+        "ingredient": "Baby Spinach",
+        "quantityG": 30
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Carrot (diced)",
+        "quantityG": 40
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Celery (diced)",
+        "quantityG": 20
+      },
+      {
+        "component": "Veg",
+        "ingredient": "Onion (caramelised)",
+        "quantityG": 20
+      },
+      {
+        "component": "Aromatics",
+        "ingredient": "Garlic + Ginger",
+        "quantityG": 10
+      },
+      {
+        "component": "Spice",
+        "ingredient": "Turmeric + Cumin + Coriander + Black Pepper",
+        "quantityG": null
+      },
+      {
+        "component": "Acid",
+        "ingredient": "Fresh Lemon Juice",
+        "quantityG": null
+      },
+      {
+        "component": "Finish",
+        "ingredient": "Cold-Pressed Olive Oil (drizzle)",
+        "quantityG": 5
+      }
     ],
     "totalWeightG": 445,
     "capacityMl": 450,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-032", "productId": "prod-032",
-      "calories": 285, "proteinG": 18, "carbsG": 38, "fatG": 6,
-      "fiberG": 14, "sugarG": 6, "sodiumMg": 420,
+      "id": "nut-032",
+      "productId": "prod-032",
+      "calories": 285,
+      "proteinG": 18,
+      "carbsG": 38,
+      "fatG": 6,
+      "fiberG": 14,
+      "sugarG": 6,
+      "sodiumMg": 420,
       "vitamins": {
         "Iron": "6.8mg",
         "Folate": "180mcg",
@@ -931,7 +1831,9 @@
     "isFeatured": true,
     "weekTag": "This Week",
     "createdAt": "2026-06-07T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [],
+    "dietaryType": "vegan"
   },
   {
     "id": "prod-033",
@@ -945,49 +1847,104 @@
     "available": false,
     "imageUrl": "/images/products/overnight-oats.jpg",
     "emoji": "🥣",
-    "tags": ["vegetarian", "high-fibre", "slow-release"],
-    "benefits": ["Slow-release energy", "High fibre", "Gut health"],
+    "tags": [
+      "vegetarian",
+      "high-fibre",
+      "slow-release"
+    ],
+    "benefits": [
+      "Slow-release energy",
+      "High fibre",
+      "Gut health"
+    ],
     "note": "PLACEHOLDER — Confirm final variants, toppings rotation schedule, and pricing with kitchen team before launch.",
     "variants": [
       {
         "variantId": "oat-v1",
         "name": "Classic Vanilla Bean",
-        "toppings": ["Banana slices", "Blueberries", "Honey drizzle", "Crushed walnuts"],
+        "toppings": [
+          "Banana slices",
+          "Blueberries",
+          "Honey drizzle",
+          "Crushed walnuts"
+        ],
         "available": false
       },
       {
         "variantId": "oat-v2",
         "name": "Cocoa Banana",
-        "toppings": ["Sliced banana", "Cacao nibs", "Almond butter swirl", "Chia seeds"],
+        "toppings": [
+          "Sliced banana",
+          "Cacao nibs",
+          "Almond butter swirl",
+          "Chia seeds"
+        ],
         "available": false
       },
       {
         "variantId": "oat-v3",
         "name": "PLACEHOLDER — Seasonal Variant",
-        "toppings": ["PLACEHOLDER — rotate weekly based on seasonal fruit availability"],
+        "toppings": [
+          "PLACEHOLDER — rotate weekly based on seasonal fruit availability"
+        ],
         "available": false
       }
     ],
     "components": [
-      { "component": "Base",     "ingredient": "Rolled Oats",             "quantityG": 60   },
-      { "component": "Liquid",   "ingredient": "Oat Milk",                "quantityG": 150  },
-      { "component": "Binding",  "ingredient": "Chia Seeds",              "quantityG": 10   },
-      { "component": "Sweetener","ingredient": "Maple Syrup (dash)",      "quantityG": null },
-      { "component": "Toppings", "ingredient": "Seasonal — see variants", "quantityG": null }
+      {
+        "component": "Base",
+        "ingredient": "Rolled Oats",
+        "quantityG": 60
+      },
+      {
+        "component": "Liquid",
+        "ingredient": "Oat Milk",
+        "quantityG": 150
+      },
+      {
+        "component": "Binding",
+        "ingredient": "Chia Seeds",
+        "quantityG": 10
+      },
+      {
+        "component": "Sweetener",
+        "ingredient": "Maple Syrup (dash)",
+        "quantityG": null
+      },
+      {
+        "component": "Toppings",
+        "ingredient": "Seasonal — see variants",
+        "quantityG": null
+      }
     ],
     "totalWeightG": 280,
     "capacityMl": 400,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-033", "productId": "prod-033",
-      "calories": 320, "proteinG": 10, "carbsG": 48, "fatG": 9,
-      "fiberG": 8, "sugarG": 12, "sodiumMg": 95,
-      "vitamins": { "Iron": "3.5mg", "Calcium": "180mg", "Vitamin B1": "0.3mg" }
+      "id": "nut-033",
+      "productId": "prod-033",
+      "calories": 320,
+      "proteinG": 10,
+      "carbsG": 48,
+      "fatG": 9,
+      "fiberG": 8,
+      "sugarG": 12,
+      "sodiumMg": 95,
+      "vitamins": {
+        "Iron": "3.5mg",
+        "Calcium": "180mg",
+        "Vitamin B1": "0.3mg"
+      }
     },
     "isFeatured": false,
     "weekTag": "Coming Soon",
     "createdAt": "2026-06-07T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [
+      "Gluten",
+      "Tree Nuts"
+    ],
+    "dietaryType": "vegetarian"
   },
   {
     "id": "prod-034",
@@ -1001,29 +1958,79 @@
     "available": false,
     "imageUrl": "/images/products/veg-sushi.jpg",
     "emoji": "🍣",
-    "tags": ["vegan", "japanese-inspired", "light"],
-    "benefits": ["Seaweed minerals", "Low calorie", "Iodine-rich"],
+    "tags": [
+      "vegan",
+      "japanese-inspired",
+      "light"
+    ],
+    "benefits": [
+      "Seaweed minerals",
+      "Low calorie",
+      "Iodine-rich"
+    ],
     "note": "PLACEHOLDER — Needs kitchen feasibility check. Cold storage at 2–8°C required. Shelf life constraint: 6 hours max post-prep. Confirm viability with kitchen and ops team.",
     "components": [
-      { "component": "Wrapper",  "ingredient": "Nori Sheet",             "quantityG": null },
-      { "component": "Base",     "ingredient": "Sushi Rice",             "quantityG": 120  },
-      { "component": "Filling",  "ingredient": "Avocado",                "quantityG": 30   },
-      { "component": "Filling",  "ingredient": "Cucumber (julienned)",   "quantityG": 30   },
-      { "component": "Filling",  "ingredient": "Carrot (julienned)",     "quantityG": 20   },
-      { "component": "Condiment","ingredient": "Pickled Ginger (sachet)","quantityG": null },
-      { "component": "Dipping",  "ingredient": "Soy-Sesame Sauce",       "quantityG": 20   }
+      {
+        "component": "Wrapper",
+        "ingredient": "Nori Sheet",
+        "quantityG": null
+      },
+      {
+        "component": "Base",
+        "ingredient": "Sushi Rice",
+        "quantityG": 120
+      },
+      {
+        "component": "Filling",
+        "ingredient": "Avocado",
+        "quantityG": 30
+      },
+      {
+        "component": "Filling",
+        "ingredient": "Cucumber (julienned)",
+        "quantityG": 30
+      },
+      {
+        "component": "Filling",
+        "ingredient": "Carrot (julienned)",
+        "quantityG": 20
+      },
+      {
+        "component": "Condiment",
+        "ingredient": "Pickled Ginger (sachet)",
+        "quantityG": null
+      },
+      {
+        "component": "Dipping",
+        "ingredient": "Soy-Sesame Sauce",
+        "quantityG": 20
+      }
     ],
     "capacityMl": 500,
     "ingredients": [],
     "nutrition": {
-      "id": "nut-034", "productId": "prod-034",
-      "calories": 310, "proteinG": 6, "carbsG": 52, "fatG": 8,
-      "fiberG": 4, "sugarG": 4, "sodiumMg": 480,
-      "vitamins": { "Vitamin K": "22mcg", "Iodine": "45mcg", "Folate": "60mcg" }
+      "id": "nut-034",
+      "productId": "prod-034",
+      "calories": 310,
+      "proteinG": 6,
+      "carbsG": 52,
+      "fatG": 8,
+      "fiberG": 4,
+      "sugarG": 4,
+      "sodiumMg": 480,
+      "vitamins": {
+        "Vitamin K": "22mcg",
+        "Iodine": "45mcg",
+        "Folate": "60mcg"
+      }
     },
     "isFeatured": false,
     "weekTag": "Coming Soon",
     "createdAt": "2026-06-07T00:00:00Z",
-    "updatedAt": "2026-06-07T00:00:00Z"
+    "updatedAt": "2026-06-07T00:00:00Z",
+    "allergenInfo": [
+      "Soy"
+    ],
+    "dietaryType": "vegan"
   }
 ]
