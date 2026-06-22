@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-
 import { useEffect, useRef, useState } from "react";
 import { useInView } from "@/lib/hooks/useScroll";
 import { cn } from "@/lib/utils/cn";
@@ -14,8 +13,8 @@ const JOURNEY_STEPS = [
     sublabel: "Certified suppliers — verified daily",
     description: "Every ingredient is sourced from a certified network of farm-fresh suppliers. Quality-checked, traceable, and meeting strict food safety standards before it ever reaches our kitchen.",
     color: "#4fa07d",
-    bgColor: "bg-emerald-50",
-    accent: "border-emerald-300",
+    bgColor: "bg-emerald-900/40",
+    accent: "border-emerald-700",
     ingredients: ["🥬", "🥕", "🍅", "🌽"],
   },
   {
@@ -25,8 +24,8 @@ const JOURNEY_STEPS = [
     sublabel: "Temperature-controlled by 5:30 AM",
     description: "Ingredients arrive via cold-chain logistics directly to our kitchen — maintaining freshness from source to prep with zero temperature breaks.",
     color: "#2d8c58",
-    bgColor: "bg-teal-50",
-    accent: "border-teal-300",
+    bgColor: "bg-teal-900/40",
+    accent: "border-teal-700",
     ingredients: ["📦", "🌡️", "🚚"],
   },
   {
@@ -36,8 +35,8 @@ const JOURNEY_STEPS = [
     sublabel: "Prep starts at 6 AM",
     description: "FSSAI-certified facility. Washed, chopped, cooked, assembled. Every bowl made fresh same morning.",
     color: "#1a5c3a",
-    bgColor: "bg-green-50",
-    accent: "border-green-300",
+    bgColor: "bg-green-900/40",
+    accent: "border-green-700",
     ingredients: ["🔪", "🥣", "👨‍🍳", "✨"],
   },
   {
@@ -47,8 +46,8 @@ const JOURNEY_STEPS = [
     sublabel: "Every batch tested",
     description: "Nutrition, hygiene, taste — checked. Products that don't meet our standards don't leave the kitchen.",
     color: "#154d31",
-    bgColor: "bg-lime-50",
-    accent: "border-lime-300",
+    bgColor: "bg-lime-900/40",
+    accent: "border-lime-700",
     ingredients: ["🧪", "📋", "🏷️"],
   },
   {
@@ -58,8 +57,8 @@ const JOURNEY_STEPS = [
     sublabel: "Sealed by 7:30 AM",
     description: "Sustainable packaging with QR traceability. Scan to see exactly which farm your meal came from.",
     color: "#6b4f2a",
-    bgColor: "bg-amber-50",
-    accent: "border-amber-300",
+    bgColor: "bg-amber-900/40",
+    accent: "border-amber-700",
     ingredients: ["♻️", "📱", "🏷️"],
   },
   {
@@ -69,8 +68,8 @@ const JOURNEY_STEPS = [
     sublabel: "Stocked by 8:30 AM",
     description: "Refrigerated at 2–8°C. Fresh inventory loads in daily. Yesterday's stock never rolls over.",
     color: "#0d0d0d",
-    bgColor: "bg-gray-50",
-    accent: "border-gray-300",
+    bgColor: "bg-gray-800/60",
+    accent: "border-gray-600",
     ingredients: ["❄️", "⚡", "📡"],
   },
   {
@@ -80,8 +79,8 @@ const JOURNEY_STEPS = [
     sublabel: "Ready when you are",
     description: "Scan QR. Choose your meal. Pick it up in under 60 seconds. That's healthy food, made easy.",
     color: "#2d8c58",
-    bgColor: "bg-forest-50",
-    accent: "border-forest-300",
+    bgColor: "bg-forest-900/40",
+    accent: "border-forest-700",
     ingredients: ["📲", "🥗", "😊"],
   },
 ];
@@ -102,7 +101,7 @@ function JourneyStep({
     <div
       className={cn(
         "relative flex gap-5 transition-all duration-500",
-        isActive ? "opacity-100" : "opacity-30"
+        isActive ? "opacity-100" : "opacity-25"
       )}
     >
       {/* Connector line */}
@@ -115,7 +114,7 @@ function JourneyStep({
             )}
             style={{ transitionDelay: `${index * 150}ms` }}
           />
-          <div className="w-full h-full bg-gray-200 absolute top-0" style={{ zIndex: -1 }} />
+          <div className="w-full h-full bg-white/10 absolute top-0" style={{ zIndex: -1 }} />
         </div>
       )}
 
@@ -124,7 +123,7 @@ function JourneyStep({
         className={cn(
           "flex-shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center text-2xl transition-all duration-500 shadow-sm",
           isCurrent
-            ? "scale-110 shadow-lg ring-2 ring-forest-500/30"
+            ? "scale-110 shadow-lg ring-2 ring-forest-500/40"
             : isActive
             ? "scale-100"
             : "scale-90 grayscale",
@@ -137,15 +136,15 @@ function JourneyStep({
       {/* Content */}
       <div className="pb-8 flex-1">
         <div className="flex items-center gap-2 mb-0.5">
-          <h3 className="font-display font-bold text-[#0d0d0d] text-lg">{step.label}</h3>
+          <h3 className="font-display font-bold text-white text-lg">{step.label}</h3>
           {isCurrent && (
-            <span className="text-[10px] font-bold tracking-widest uppercase text-forest-600 bg-forest-600/10 px-2 py-0.5 rounded-full">
+            <span className="text-[10px] font-bold tracking-widest uppercase text-forest-400 bg-forest-400/15 px-2 py-0.5 rounded-full">
               Active
             </span>
           )}
         </div>
-        <p className="text-xs font-medium tracking-wide text-forest-500 uppercase mb-2">{step.sublabel}</p>
-        <p className="text-sm text-gray-500 leading-relaxed max-w-sm">{step.description}</p>
+        <p className="text-xs font-medium tracking-wide text-forest-400 uppercase mb-2">{step.sublabel}</p>
+        <p className="text-sm text-white/40 leading-relaxed max-w-sm">{step.description}</p>
         {isActive && (
           <div className="flex gap-2 mt-3">
             {step.ingredients.map((ing) => (
@@ -174,7 +173,6 @@ export default function AboutSection() {
       const rect = container.getBoundingClientRect();
       const windowH = window.innerHeight;
 
-      // How far we've scrolled through the journey container
       const scrolled = Math.max(0, windowH * 0.6 - rect.top);
       const stepHeight = rect.height / JOURNEY_STEPS.length;
       const step = Math.min(Math.floor(scrolled / stepHeight), JOURNEY_STEPS.length - 1);
@@ -190,10 +188,11 @@ export default function AboutSection() {
     <section
       id="about"
       ref={sectionRef}
-      className="bg-[#f5f0e8] py-24 relative overflow-hidden"
+      className="bg-[#0d0d0d] py-24 relative overflow-hidden"
     >
       {/* BG accent */}
-      <div className="absolute top-0 right-0 w-72 h-72 rounded-full bg-forest-600/4 blur-3xl pointer-events-none" />
+      <div className="absolute top-0 right-0 w-72 h-72 rounded-full bg-forest-600/8 blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-96 h-96 rounded-full bg-forest-900/20 blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
@@ -204,17 +203,19 @@ export default function AboutSection() {
           )}
         >
           <div className="flex items-center gap-2 mb-4">
-            <span className="w-6 h-px bg-forest-600" />
-            <span className="text-xs font-semibold tracking-[0.16em] uppercase text-forest-600">
+            <span className="w-6 h-px bg-forest-400" />
+            <span className="text-xs font-semibold tracking-[0.16em] uppercase text-forest-400">
               How It Works
             </span>
           </div>
-          <h2 className="font-display text-5xl md:text-6xl font-black text-[#0d0d0d] leading-tight mb-5"
-            style={{ letterSpacing: "-0.03em" }}>
+          <h2
+            className="font-display text-5xl md:text-6xl font-black text-white leading-tight mb-5"
+            style={{ letterSpacing: "-0.03em" }}
+          >
             From farm to your<br />
-            <em className="text-forest-600">hands — every day.</em>
+            <em className="text-forest-400">hands — every day.</em>
           </h2>
-          <p className="text-gray-500 text-lg leading-relaxed">
+          <p className="text-white/50 text-lg leading-relaxed">
             We rotate inventory every single day. Not because we have to —
             because fresh food cannot be stockpiled. Watch how a morning at
             Bowlz-I works.
@@ -237,16 +238,15 @@ export default function AboutSection() {
 
           {/* RIGHT: What Makes Us Different */}
           <div className="lg:sticky lg:top-24 space-y-4">
-
             {/* Section header */}
             <div className="mb-2">
-              <div className="text-[11px] font-bold tracking-[0.16em] uppercase text-forest-600 mb-1">What makes us different</div>
-              <p className="text-sm text-gray-500 leading-relaxed">
-                Not just another healthy food brand. Here's what we actually do differently.
+              <div className="text-[11px] font-bold tracking-[0.16em] uppercase text-forest-400 mb-1">What makes us different</div>
+              <p className="text-sm text-white/40 leading-relaxed">
+                Not just another healthy food brand. Here&apos;s what we actually do differently.
               </p>
             </div>
 
-            {/* Differentiator cards */}
+            {/* Differentiator cards — dark cards on dark bg */}
             {[
               {
                 icon: "🌱",
@@ -287,15 +287,15 @@ export default function AboutSection() {
             ].map((d) => (
               <div
                 key={d.title}
-                className="bg-white border border-gray-100 rounded-2xl p-4 flex gap-4 items-start hover:border-forest-600/20 hover:shadow-sm transition-all duration-200 group"
+                className="bg-white/5 border border-white/8 rounded-2xl p-4 flex gap-4 items-start hover:border-forest-600/30 hover:bg-white/8 transition-all duration-200"
               >
                 <span className="text-2xl flex-shrink-0 mt-0.5">{d.icon}</span>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 mb-1 flex-wrap">
-                    <div className="font-semibold text-[#0d0d0d] text-sm">{d.title}</div>
-                    <span className="text-[9px] font-bold tracking-widest uppercase text-forest-600 bg-forest-600/8 px-2 py-0.5 rounded-full flex-shrink-0">{d.tag}</span>
+                    <div className="font-semibold text-white text-sm">{d.title}</div>
+                    <span className="text-[9px] font-bold tracking-widest uppercase text-forest-400 bg-forest-400/15 px-2 py-0.5 rounded-full flex-shrink-0">{d.tag}</span>
                   </div>
-                  <div className="text-xs text-gray-400 leading-relaxed">{d.body}</div>
+                  <div className="text-xs text-white/40 leading-relaxed">{d.body}</div>
                 </div>
               </div>
             ))}

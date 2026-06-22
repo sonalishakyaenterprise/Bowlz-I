@@ -251,7 +251,7 @@ export default function HeroSection() {
                 display:"inline-block",
                 opacity: wordVisible ? 1 : 0,
                 transform: wordVisible ? "translateY(0)" : "translateY(-8px)",
-                transition:"all .35s ease",
+                transition:"all 1s ease",
               }}>{WORDS[wordIdx]}</span>
             </span>
           </h1>

@@ -10,7 +10,8 @@ interface Props {
   products: Product[];
 }
 
-// ── Nutrition flip card back ───────────────────────────────────────────────
+// ── Nutrition flip card back ─────────────────────────────────────────────
+// Back of card stays dark regardless of section bg — intentional contrast
 function NutritionBack({ product, onBack }: { product: Product; onBack: () => void }) {
   const n = product.nutrition;
   return (
@@ -85,7 +86,7 @@ function NutritionBack({ product, onBack }: { product: Product; onBack: () => vo
   );
 }
 
-// ── Product card ───────────────────────────────────────────────────────────
+// ── Product card ─────────────────────────────────────────────────────────
 function ProductCard({ product, allProducts }: { product: Product; allProducts: Product[] }) {
   const [flipped, setFlipped] = useState(false);
 
@@ -100,13 +101,13 @@ function ProductCard({ product, allProducts }: { product: Product; allProducts: 
         "hover:shadow-lg hover:-translate-y-1",
         flipped
           ? "bg-[#0d1f14] border-forest-600/40 shadow-lg shadow-forest-600/10"
-          : "bg-white/5 border-white/8 hover:bg-white/8 hover:border-white/15"
+          : "bg-white border-gray-200 hover:border-forest-600/30 hover:shadow-md shadow-sm"
       )}
       onClick={() => setFlipped(!flipped)}
     >
       {/* Unavailable overlay */}
       {!product.available && (
-        <div className="absolute top-2.5 right-2.5 z-10 bg-black/70 text-white/60 text-[9px] font-bold tracking-widest uppercase px-2 py-0.5 rounded-full">
+        <div className="absolute top-2.5 right-2.5 z-10 bg-black/10 text-gray-500 text-[9px] font-bold tracking-widest uppercase px-2 py-0.5 rounded-full">
           {product.weekTag === "Coming Soon" ? "Coming Soon" : "Unavailable"}
         </div>
       )}
@@ -126,7 +127,7 @@ function ProductCard({ product, allProducts }: { product: Product; allProducts: 
       )}
 
       {!flipped ? (
-        /* Front */
+        /* Front — light card on cream section bg */
         <div className="p-4 flex flex-col flex-1">
           <div className="flex items-center justify-between mb-2.5">
             <div className="text-3xl leading-none">{product.emoji}</div>
@@ -140,40 +141,40 @@ function ProductCard({ product, allProducts }: { product: Product; allProducts: 
               </div>
             )}
           </div>
-          <div className="text-[9px] font-bold tracking-widest uppercase text-forest-400 mb-1">
+          <div className="text-[9px] font-bold tracking-widest uppercase text-forest-600 mb-1">
             {product.dressingType === "salad" ? "Salad Dressing" : product.dressingType === "fruit" ? "Fruit Dressing" : ""}
           </div>
-          <div className="font-semibold text-white text-sm leading-tight mb-1.5">{product.name}</div>
-          <div className="text-[11px] text-white/40 leading-relaxed mb-3 flex-1 line-clamp-3">{product.shortDescription}</div>
+          <div className="font-semibold text-[#0d0d0d] text-sm leading-tight mb-1.5">{product.name}</div>
+          <div className="text-[11px] text-gray-400 leading-relaxed mb-3 flex-1 line-clamp-3">{product.description}</div>
 
           {/* Pairing tags */}
           {pairedProducts.length > 0 && (
             <div className="mb-3">
-              <div className="text-[9px] text-white/25 uppercase tracking-widest mb-1">Pairs with</div>
+              <div className="text-[9px] text-gray-400 uppercase tracking-widest mb-1">Pairs with</div>
               <div className="flex flex-wrap gap-1">
                 {pairedProducts.map(p => (
-                  <span key={p.id} className="text-[10px] bg-white/6 text-white/40 px-1.5 py-0.5 rounded-md">{p.emoji} {p.name.split(" ")[0]}</span>
+                  <span key={p.id} className="text-[10px] bg-gray-100 text-gray-500 px-1.5 py-0.5 rounded-md">{p.emoji} {p.name.split(" ")[0]}</span>
                 ))}
               </div>
             </div>
           )}
 
           <div className="flex items-center justify-between mt-auto">
-            <span className="text-sm font-bold text-green-400">₹{product.price}</span>
+            <span className="text-sm font-bold text-forest-600">₹{product.price}</span>
             {product.capacityMl && (
-              <span className="text-[9px] text-white/25">{product.capacityMl}ml</span>
+              <span className="text-[9px] text-gray-300">{product.capacityMl}ml</span>
             )}
           </div>
         </div>
       ) : (
-        /* Back - nutrition */
+        /* Back — always dark for contrast */
         <NutritionBack product={product} onBack={() => setFlipped(false)} />
       )}
     </div>
   );
 }
 
-// ── Category drawer ────────────────────────────────────────────────────────
+// ── Category drawer ──────────────────────────────────────────────────────
 function CategoryDrawer({
   category, products, allProducts, isOpen, onClose
 }: {
@@ -196,22 +197,22 @@ function CategoryDrawer({
         <div className="flex items-start justify-between mb-5 px-1">
           <div>
             {isWhatsNew && category.rotationNote && (
-              <p className="text-[11px] text-pink-400/70 max-w-lg leading-relaxed mb-2">
+              <p className="text-[11px] text-pink-500/80 max-w-lg leading-relaxed mb-2">
                 🔄 {category.rotationNote}
               </p>
             )}
             {isDressings && (
-              <p className="text-[11px] text-amber-400/70 max-w-lg leading-relaxed mb-2">
+              <p className="text-[11px] text-amber-600/80 max-w-lg leading-relaxed mb-2">
                 🫙 Sold in 50ml portions. Each product card shows which bowls or fruit boxes it pairs best with.
               </p>
             )}
-            <div className="text-[10px] font-semibold uppercase tracking-widest text-white/25">
+            <div className="text-[10px] font-semibold uppercase tracking-widest text-gray-400">
               {products.length} item{products.length !== 1 ? "s" : ""}
             </div>
           </div>
           <button
             onClick={onClose}
-            className="flex items-center gap-1.5 text-[11px] font-medium text-white/30 hover:text-white/60 border border-white/10 rounded-full px-3 py-1.5 transition-colors bg-transparent cursor-pointer font-[inherit]"
+            className="flex items-center gap-1.5 text-[11px] font-medium text-gray-400 hover:text-gray-600 border border-gray-200 rounded-full px-3 py-1.5 transition-colors bg-transparent cursor-pointer font-[inherit]"
           >
             Close ✕
           </button>
@@ -220,7 +221,7 @@ function CategoryDrawer({
         {products.length === 0 ? (
           <div className="text-center py-14">
             <div className="text-5xl mb-3">🚧</div>
-            <p className="text-sm text-white/25">Coming soon — stay tuned!</p>
+            <p className="text-sm text-gray-400">Coming soon — stay tuned!</p>
           </div>
         ) : (
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
@@ -234,7 +235,7 @@ function CategoryDrawer({
   );
 }
 
-// ── Main component ─────────────────────────────────────────────────────────
+// ── Main component ───────────────────────────────────────────────────────
 export default function ProductsSection({ categories, products }: Props) {
   const { ref, isInView } = useInView(0.1);
   const [openCategory, setOpenCategory] = useState<string | null>(null);
@@ -254,29 +255,36 @@ export default function ProductsSection({ categories, products }: Props) {
   const getProducts = (categoryId: string) =>
     products.filter(p => p.categoryId === categoryId);
 
-  // Category accent colors
+  // Category accent colors — adjusted for light bg
   const accentColor: Record<string, string> = {
-    "cat-011": "rgba(236,72,153,0.15)", // pink for whats-new
-    "cat-009": "rgba(245,158,11,0.1)",  // amber for dressings
-    "cat-010": "rgba(249,115,22,0.1)",  // orange for fruit dressings
-    "cat-012": "rgba(26,92,58,0.15)",   // green for world of wellness
+    "cat-011": "rgba(236,72,153,0.08)",
+    "cat-009": "rgba(245,158,11,0.08)",
+    "cat-010": "rgba(249,115,22,0.08)",
+    "cat-012": "rgba(26,92,58,0.08)",
+  };
+
+  const accentBorder: Record<string, string> = {
+    "cat-011": "rgba(236,72,153,0.3)",
+    "cat-009": "rgba(245,158,11,0.3)",
+    "cat-010": "rgba(249,115,22,0.3)",
+    "cat-012": "rgba(26,92,58,0.3)",
   };
 
   return (
-    <section id="products-sec" className="bg-[#0d0d0d] py-24">
+    <section id="products-sec" className="bg-[#f5f0e8] py-24">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Header */}
         <div ref={ref} className={cn("max-w-2xl mb-16 opacity-0 translate-y-6 transition-all duration-700", isInView && "opacity-100 translate-y-0")}>
           <div className="flex items-center gap-2 mb-4">
-            <span className="w-6 h-px bg-forest-400" />
-            <span className="text-[11px] font-semibold tracking-[0.16em] uppercase text-forest-400">The Menu</span>
+            <span className="w-6 h-px bg-forest-600" />
+            <span className="text-[11px] font-semibold tracking-[0.16em] uppercase text-forest-600">The Menu</span>
           </div>
-          <h2 className="font-display text-5xl md:text-6xl font-black text-white leading-tight mb-5" style={{ letterSpacing: "-0.03em" }}>
+          <h2 className="font-display text-5xl md:text-6xl font-black text-[#0d0d0d] leading-tight mb-5" style={{ letterSpacing: "-0.03em" }}>
             What&apos;s inside<br />
-            <em className="text-forest-400">the machine.</em>
+            <em className="text-forest-600">the machine.</em>
           </h2>
-          <p className="text-white/40 text-lg leading-relaxed">
+          <p className="text-gray-500 text-lg leading-relaxed">
             Eleven categories. Fresh daily. Tap any category to open the full catalog —
             tap a product card to flip it for nutrition details and ingredient pairings.
           </p>
@@ -284,11 +292,12 @@ export default function ProductsSection({ categories, products }: Props) {
 
         {/* Category list */}
         <div className="flex flex-col gap-2.5">
-          {categories.map((cat, i) => {
+          {categories.map((cat) => {
             const catProducts = getProducts(cat.id);
             const isOpen = openCategory === cat.id;
             const isWhatsNew = cat.isRotating;
             const bg = accentColor[cat.id];
+            const border = accentBorder[cat.id];
 
             return (
               <div key={cat.id} id={`cat-row-${cat.id}`}>
@@ -297,32 +306,35 @@ export default function ProductsSection({ categories, products }: Props) {
                   className={cn(
                     "w-full flex items-center justify-between gap-4 px-5 py-4 rounded-2xl border transition-all duration-250 text-left cursor-pointer font-[inherit]",
                     isOpen
-                      ? "border-transparent text-white"
-                      : "bg-white/4 border-white/7 text-white hover:bg-white/7 hover:border-white/13"
+                      ? "text-[#0d0d0d]"
+                      : "bg-white border-gray-200 text-[#0d0d0d] hover:bg-gray-50 hover:border-gray-300"
                   )}
-                  style={isOpen ? { background: bg || "rgba(26,92,58,0.2)", borderColor: "transparent" } : {}}
+                  style={isOpen ? {
+                    background: bg || "rgba(26,92,58,0.06)",
+                    borderColor: border || "rgba(26,92,58,0.25)",
+                  } : {}}
                 >
                   <div className="flex items-center gap-3.5">
                     <span className="text-2xl leading-none">{cat.icon}</span>
                     <div>
-                      <div className="font-semibold text-base text-white flex items-center gap-2 flex-wrap">
+                      <div className="font-semibold text-base text-[#0d0d0d] flex items-center gap-2 flex-wrap">
                         {cat.name}
                         {cat.comingSoon && (
-                          <span className="text-[9px] font-bold tracking-widest uppercase bg-amber-400/20 text-amber-300 px-2 py-0.5 rounded-full">Coming Soon</span>
+                          <span className="text-[9px] font-bold tracking-widest uppercase bg-amber-100 text-amber-600 px-2 py-0.5 rounded-full">Coming Soon</span>
                         )}
                         {isWhatsNew && (
-                          <span className="text-[9px] font-bold tracking-widest uppercase bg-pink-500/20 text-pink-300 px-2 py-0.5 rounded-full">Rotates Weekly</span>
+                          <span className="text-[9px] font-bold tracking-widest uppercase bg-pink-100 text-pink-500 px-2 py-0.5 rounded-full">Rotates Weekly</span>
                         )}
                       </div>
-                      <div className={cn("text-[11px] mt-0.5", isOpen ? "text-white/60" : "text-white/30")}>{cat.description}</div>
+                      <div className={cn("text-[11px] mt-0.5", isOpen ? "text-gray-600" : "text-gray-400")}>{cat.description}</div>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-2.5 flex-shrink-0">
-                    <span className={cn("text-[10px] font-semibold px-2 py-0.5 rounded-full", isOpen ? "bg-white/15 text-white" : "bg-white/7 text-white/40")}>
+                    <span className={cn("text-[10px] font-semibold px-2 py-0.5 rounded-full", isOpen ? "bg-forest-600/10 text-forest-700" : "bg-gray-100 text-gray-500")}>
                       {catProducts.length} items
                     </span>
-                    <span className={cn("w-6 h-6 rounded-full border text-[13px] flex items-center justify-center transition-transform duration-300", isOpen ? "bg-white/15 border-white/20 rotate-45" : "bg-white/5 border-white/10")}>
+                    <span className={cn("w-6 h-6 rounded-full border text-[13px] flex items-center justify-center transition-transform duration-300", isOpen ? "bg-forest-600/10 border-forest-600/25 rotate-45" : "bg-gray-100 border-gray-200")}>
                       +
                     </span>
                   </div>
@@ -363,3 +375,7 @@ export default function ProductsSection({ categories, products }: Props) {
     </section>
   );
 }
+
+
+        
+

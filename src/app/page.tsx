@@ -29,8 +29,8 @@ export default function HomePage() {
       <Header />
       <main>
         <HeroSection />
-        <AboutSection />
         <ProductsSection categories={categories} products={products} />
+        <AboutSection />
         <MachineSection />
         <LocationsSection locations={locations} />
         {/* <BlogSection posts={blogPosts} /> */}
